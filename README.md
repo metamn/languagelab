@@ -15,9 +15,14 @@
 
 ## Main Menu
 
-- it is build upon Pages
+- it is built upon Pages
 - the menu structure (main and submenus) is defined in Admin > Appearance > Menus
 - the order is defined in Admin > Pages by setting the `order` attribute of each Page
-- in Admin > Appearance > Menus leave Theme Locations blank, don't select the Primary Menu.
-This way Home menu will be added and Page orders will be effective.
+- Home menu is added via code in functions.php
 
+
+## Sidebar Menu
+
+- it is built upon Pages
+- Blog, Brochure/PDF are custom menu links
+- Social Media Icons are put under this menu via a Text widget
