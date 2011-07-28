@@ -1,0 +1,14 @@
+.container {
+  width: 90%; /* 1152px = 72em */
+  max-width: 80em; /* 1280px */
+  margin: 0 auto;
+}
+
+.mobile {
+  display: none;
+}
+.desktop {
+  display: block;
+}
+
+
