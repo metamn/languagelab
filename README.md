@@ -24,5 +24,10 @@
 ## Sidebar Menu
 
 - it is built upon Pages
-- Blog, Brochure/PDF are custom menu links
-- Social Media Icons are put under this menu via a Text widget
+- Brochure download (pdf) and Social Media Icons are displayed via Text widgets
+
+
+## Start Page and Blog
+
+- Wordpress is configured to display the page 'Home' as the front page, and show posts via the 'Blog' page
+- 'front-page.php' by default is considered by Wordpress to display the page 'Home'
