@@ -21,6 +21,20 @@ get_header(); ?>
 			<?php get_template_part( 'content', 'page' ); ?>
 			
 			</div><!-- #content -->
+			
+			<div id="video">
+			  video ...
+			</div>
+			
+			<div id="icons">
+			  Companies
+			  Universities
+			  ....
+			</div>
+			
+			<div id="coming-soon">
+			  Coming sooon...
+			</div>
 		</div><!-- #primary -->
 
 <?php get_sidebar(); ?>

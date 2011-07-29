@@ -31,3 +31,15 @@
 
 - Wordpress is configured to display the page 'Home' as the front page, and show posts via the 'Blog' page
 - 'front-page.php' by default is considered by Wordpress to display the page 'Home'
+
+
+## Design
+
+- will be responsive => header.php must be overwritten
+
+
+## Logo
+
+- add an image titled "Languagelab logo" to the Media Library
+- the size does not matter, it will be resized with CSS
+

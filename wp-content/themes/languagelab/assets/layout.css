@@ -1,8 +1,78 @@
-.container {
-  width: 90%; /* 1152px = 72em */
-  max-width: 80em; /* 1280px */
+
+/* 
+- setting up the main container width
+- max-width is set in the respective responsive stylesheets
+*/
+#page.hfeed {
+  width: 96%; 
   margin: 0 auto;
 }
+
+
+
+
+/* Header 
+*/
+
+#branding #searchform {
+  display: none;
+}
+
+
+/* Main menu
+*/
+
+#access {
+	clear: both;
+	display: block;
+	float: left;	
+}
+#access ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+#access li {
+	float: left;
+	position: relative;
+	margin-bottom: 0;
+}
+#access a {
+	display: block;
+	line-height: 2.5em;
+	padding: 0 .612em;
+	text-decoration: none;
+}
+#access ul ul {
+	display: none;
+	float: left;
+	margin: 0;
+	position: absolute;
+	top: 2.5em;
+	left: 0;
+	z-index: 99999;
+}
+#access ul ul ul {
+	left: 100%;
+	top: 0;
+}
+#access ul ul a {
+	height: auto;
+	line-height: 1.4em;
+	padding: .612em;
+	width: 15em;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+
+
+
+
+
+/* General
+*/
+
 
 .mobile {
   display: none;
@@ -11,4 +81,6 @@
   display: block;
 }
 
-
+.assistive-text, .skip-link {
+  display: none;
+}
