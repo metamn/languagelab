@@ -1,12 +1,24 @@
 <?php
 
 
-// Constants, definitions
-define('LOGO_IMAGE_TITLE', 'Languagelab logo'); //a media titled "Languagelab logo" will be choosen as the logo image
+// Get post/page images
+// get all of the images attached to the current post
+function get_images($size = 'thumbnail') {
+	global $post;
 
+	$photos = get_children( array('post_parent' => $post->ID, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => 'ASC', 'orderby' => 'menu_order ID') );
 
+	$results = array();
 
+	if ($photos) {
+		foreach ($photos as $photo) {
+			// get the correct image html for the selected size
+			$results[] = wp_get_attachment_image($photo->ID, $size);
+		}
+	}
 
+	return $results;
+}
 
 // Filter wp_nav_menu() to add additional links and other output
 // - only main menu navigation is considered, sidebar menu will have no 'Home' added
@@ -20,20 +32,5 @@ function new_nav_menu_items($items) {
 add_filter( 'wp_nav_menu_items', 'new_nav_menu_items' );
 
 
-// Get the logo
-// - search through attachments/media and get the image titled LOGO_IMAGE_TITLE
-function logo() {
-  $args = array(
-   'post_type' => 'attachment',
-   'post_title' => LOGO_IMAGE_TITLE
-  );
-  $logos = get_posts($args);
-  if ($logos) {
-    $logo = $logos[0];
-    if ($logo) {
-      echo wp_get_attachment_image($logo->ID, 'full');
-    }   
-  }
-}
 
 ?>

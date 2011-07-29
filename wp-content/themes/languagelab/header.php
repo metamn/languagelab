@@ -87,7 +87,7 @@
 			<hgroup>
 				<h1 id="site-title">
 				  <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				    <?php logo(); ?></a></h1>
+				    <img title="Languagelab Logo" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/logo.jpg" /></a></h1>
 				<h2 id="site-description" class="hidden"><?php bloginfo( 'description' ); ?></h2>
 			</hgroup>
 

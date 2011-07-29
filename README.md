@@ -40,6 +40,11 @@
 
 ## Logo
 
-- add an image titled "Languagelab logo" to the Media Library
-- the size does not matter, it will be resized with CSS
+- the 'logo.jpg' uploaded into 'assets'
+
+
+## Start page images
+
+- are taken from attachments of the 'Home' page
+- the order of images can be set in the Media Gallery of the page
 

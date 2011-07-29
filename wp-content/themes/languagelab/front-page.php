@@ -18,7 +18,20 @@ get_header(); ?>
 			<div id="content" role="main">
 
       <?php the_post(); ?>
-			<?php get_template_part( 'content', 'page' ); ?>
+			
+			<?php
+		    $attachments = get_images('full');
+        if ($attachments) {
+          foreach ($attachments as $attachment) {
+            echo '<li>';
+            echo $attachment;
+            echo '</li>';
+          }
+        }
+      ?>
+      
+      <?php the_content(); ?>
+			
 			
 			</div><!-- #content -->
 			

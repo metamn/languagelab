@@ -9,6 +9,16 @@
 }
 
 
+/* 
+- setting up block elements
+*/
+#branding, #main {
+  float: left;
+  width: 100%;
+}
+
+
+
 
 
 /* Header 
@@ -30,7 +40,7 @@
 #access ul {
 	list-style: none;
 	margin: 0;
-	padding-left: 0;
+	padding-left: 1em; /* to align to the logo above */
 }
 #access li {
 	float: left;
@@ -47,6 +57,7 @@
 	display: none;
 	float: left;
 	margin: 0;
+	padding: 0;
 	position: absolute;
 	top: 2.5em;
 	left: 0;
