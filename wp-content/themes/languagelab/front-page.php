@@ -16,22 +16,7 @@ get_header(); ?>
 
 		<div id="primary">
 			<div id="content" role="main">
-
-        <!--
-        <div id="images">
-			    <?php
-		        $attachments = get_images('full');
-            if ($attachments) {
-              foreach ($attachments as $attachment) {
-                echo $attachment;
-                break;
-              }
-            }
-          ?>
-        </div>
-        -->
-        
-        
+                
         <div class="col col-1">
           <div id="text">
             <?php the_post(); ?>			

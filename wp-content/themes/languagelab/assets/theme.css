@@ -2,6 +2,7 @@
 
 
 basic blue: #1C83E2, blue, taken from current site background color
+light blue: #74B2ED, taken from logo bubble
 red: E73D34, from kuler
 
 
@@ -18,7 +19,7 @@ body {
 */
 
 #access li a, #access li a:visited {
-  color: #1C83E2;
+  color: #74B2ED;
 }
 #access ul ul a {
 	background: #f9f9f9;

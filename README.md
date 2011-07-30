@@ -24,7 +24,6 @@
 ## Sidebar Menu
 
 - it is built upon Pages
-- Brochure download (pdf) and Social Media Icons are displayed via Text widgets
 
 
 ## Start Page and Blog
@@ -38,13 +37,17 @@
 - will be responsive => header.php must be overwritten
 
 
-## Logo
+### Logo
 
 - the 'logo.jpg' uploaded into 'assets'
 
 
-## Start page images
+### Product Icons
 
-- are taken from attachments of the 'Home' page
-- the order of images can be set in the Media Gallery of the page
+- taken from The Noun Project
+
+
+### Social Media Icons
+
+- free icons from Picons
 
