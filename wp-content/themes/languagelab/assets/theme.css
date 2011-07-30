@@ -2,15 +2,15 @@
 
 
 basic blue: #1C83E2, blue, taken from current site background color
-light blue: #74B2ED, taken from logo bubble
 red: E73D34, from kuler
-
+green: A2AF04, from kuler
 
 */
 
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: url("background.jpg") no-repeat scroll 90% 24% transparent;
 }
 
 
@@ -18,8 +18,11 @@ body {
 /* Main menu 
 */
 
+#access li {
+  background: #A2AF04;
+}
 #access li a, #access li a:visited {
-  color: #74B2ED;
+  color: white;
 }
 #access ul ul a {
 	background: #f9f9f9;
@@ -51,10 +54,14 @@ body {
 */
 
 .home #primary #text {
-  padding: 0 1.25em 1.25em;
   background: #E73D34;
   color: white;
-  height: 20.75em; /* Same as the video */
+}
+.home #primary .col-2 {
+  background: none;
+}
+.home #primary #video {
+  display: none;
 }
 
 

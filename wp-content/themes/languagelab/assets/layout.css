@@ -29,8 +29,11 @@
 /* Header 
 */
 
+header#branding {
+  margin-bottom: 5em;
+}
 #branding hgroup {
-  margin: 2.5em 0;
+  margin: 2.5em 0 0;
 }
 #branding hgroup img {
   width: 100%;
@@ -43,13 +46,11 @@
 */
 
 #access {
-	margin: 0;
-	float: right;
+	margin-left: 28.5%;
 }
 #access ul {
 	list-style: none;
 	margin: 0;
-	padding-left: 1em; /* to align to the logo above */
 }
 #access li {
 	float: left;
@@ -59,7 +60,7 @@
 #access a {
 	display: block;
 	line-height: 2.5em;
-	padding: 0 .612em;
+	padding: 0 1.44em;
 	text-decoration: none;
 }
 #access ul ul {
@@ -90,8 +91,13 @@
 /* Startpage
 */
 
+.home #primary #text {
+  padding: 1.25em;
+  height: 22em;
+}
 .home #primary #icons {
   margin: 5em 0 2.5em;
+  padding-top: 2.5em;
 }
 .home #primary #icons li {
   width: 17%;
