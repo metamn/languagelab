@@ -25,28 +25,59 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>" />
   <meta name="viewport" content="width=device-width" />
   
-  <title><?php
-	/*
-	 * Print the <title> tag based on what is being viewed.
-	 */
-	global $page, $paged;
+  <title>
+    <?php
+    /*
+     * Print the <title> tag based on what is being viewed.
+     */
+    global $page, $paged;
 
-	wp_title( '|', true, 'right' );
+    wp_title( '|', true, 'right' );
 
-	// Add the blog name.
-	bloginfo( 'name' );
+    // Add the blog name.
+    bloginfo( 'name' );
 
-	// Add the blog description for the home/front page.
-	$site_description = get_bloginfo( 'description', 'display' );
-	if ( $site_description && ( is_home() || is_front_page() ) )
-		echo " | $site_description";
+    // Add the blog description for the home/front page.
+    $site_description = get_bloginfo( 'description', 'display' );
+    if ( $site_description && ( is_home() || is_front_page() ) )
+	    echo " | $site_description";
 
-	// Add a page number if necessary:
-	if ( $paged >= 2 || $page >= 2 )
-		echo ' | ' . sprintf( __( 'Page %s', 'twentyeleven' ), max( $paged, $page ) );
+    // Add a page number if necessary:
+    if ( $paged >= 2 || $page >= 2 )
+	    echo ' | ' . sprintf( __( 'Page %s', 'twentyeleven' ), max( $paged, $page ) );
 
-	?>
+    ?>
 	</title>
+	
+	
+	<!--
+  /*
+   * MyFonts Webfont Build ID 787835, 2011-04-18T12:42:52-0400
+   * 
+   * The fonts listed in this notice are subject to the End User License
+   * Agreement(s) entered into by the website owner. All other parties are 
+   * explicitly restricted from using the Licensed Webfonts(s).
+   * 
+   * You may obtain a valid license at the URLs below.
+   * 
+   * Webfont: Museo Sans 500
+   * URL: http://new.myfonts.com/fonts/exljbris/museo-sans/500/
+   * Foundry: exljbris
+   * Copyright: Copyright (c) 2008 by Jos Buivenga. All rights reserved.
+   * License: http://www.myfonts.com/viewlicense?1056
+   * Licensed pageviews: unlimited/month
+   * CSS font-family: MuseoSans-500
+   * CSS font-weight: normal
+   * 
+   * (c) 2011 Bitstream, Inc
+  */
+  -->
+  <script type="text/javascript">
+    var myfont_webfont_test = false;
+    var woffEnabled = false;
+  </script>
+  <script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/MuseoSans.js"></script>
+  
 
   <link rel="profile" href="http://gmpg.org/xfn/11" />
   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
@@ -64,6 +95,9 @@
     <link href="/assets/ie.css" media="all" type="text/css" rel="stylesheet">  
 	<![endif]-->
   
+  <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.6.min.js" type="text/javascript"></script>
+
+
 
   <?php
 	  /* We add some JavaScript to pages with the comment form
@@ -84,16 +118,6 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
-			<hgroup>
-				<h1 id="site-title">
-				  <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				    <img title="Languagelab Logo" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/logo.jpg" /></a></h1>
-				<h2 id="site-description" class="hidden"><?php bloginfo( 'description' ); ?></h2>
-			</hgroup>
-
-			
-			<?php get_search_form(); ?>
-			
 			<nav id="access" role="navigation">
 				<h3 class="assistive-text"><?php _e( 'Main menu', 'twentyeleven' ); ?></h3>
 				<?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff. */ ?>
@@ -102,6 +126,14 @@
 				<?php /* Our navigation menu.  If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assiged to the primary position is the one used. If none is assigned, the menu with the lowest ID is used. */ ?>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			</nav><!-- #access -->
+			
+			<hgroup>
+				<h1 id="site-title">
+				  <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+				    <img title="Languagelab Logo" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/logo.jpg" /></a></h1>
+				<h2 id="site-description" class="hidden"><?php bloginfo( 'description' ); ?></h2>
+			</hgroup>
+
 	</header><!-- #branding -->
 
 

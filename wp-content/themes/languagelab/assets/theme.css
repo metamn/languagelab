@@ -1,4 +1,25 @@
-/* Main menu */
+/* Color definitions
+
+
+basic blue: #1C83E2, blue, taken from current site background color
+red: E73D34, from kuler
+
+
+*/
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Main menu 
+*/
+
+#access li a, #access li a:visited {
+  color: #1C83E2;
+}
 #access ul ul a {
 	background: #f9f9f9;
 	border-bottom: 1px dotted #ddd;
@@ -23,3 +44,22 @@
 	font-weight: bold;
 }
 
+
+
+/* Start page
+*/
+
+.home #primary #text {
+  padding: 0 1.25em 1.25em;
+  background: #E73D34;
+  color: white;
+  height: 20.75em; /* Same as the video */
+}
+
+
+/* Footer
+*/
+
+footer {
+  border-top: 1px solid;
+}
