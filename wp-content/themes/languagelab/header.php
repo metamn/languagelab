@@ -49,36 +49,6 @@
     ?>
 	</title>
 	
-	
-	<!--
-  /*
-   * MyFonts Webfont Build ID 787835, 2011-04-18T12:42:52-0400
-   * 
-   * The fonts listed in this notice are subject to the End User License
-   * Agreement(s) entered into by the website owner. All other parties are 
-   * explicitly restricted from using the Licensed Webfonts(s).
-   * 
-   * You may obtain a valid license at the URLs below.
-   * 
-   * Webfont: Museo Sans 500
-   * URL: http://new.myfonts.com/fonts/exljbris/museo-sans/500/
-   * Foundry: exljbris
-   * Copyright: Copyright (c) 2008 by Jos Buivenga. All rights reserved.
-   * License: http://www.myfonts.com/viewlicense?1056
-   * Licensed pageviews: unlimited/month
-   * CSS font-family: MuseoSans-500
-   * CSS font-weight: normal
-   * 
-   * (c) 2011 Bitstream, Inc
-  */
-  -->
-  <script type="text/javascript">
-    var myfont_webfont_test = false;
-    var woffEnabled = false;
-  </script>
-  <script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/MuseoSans.js"></script>
-  
-
   <link rel="profile" href="http://gmpg.org/xfn/11" />
   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -97,6 +67,7 @@
   
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.6.min.js" type="text/javascript"></script>
 
+  <link href='http://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
 
 
   <?php
