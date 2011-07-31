@@ -93,6 +93,7 @@ header#branding {
 
 .home #primary #text {
   padding: 1.25em;
+  margin: 0 2.5em 2.5em 0; /* needed for the box shadow */
   height: 22em;
 }
 .home #primary #icons {
@@ -101,7 +102,7 @@ header#branding {
 }
 .home #primary #icons li {
   width: 17%;
-  margin-right: 2.5%;  
+  margin-right: 3.3%;  
   text-align: center;
 }
 .home #primary #icons li.last {

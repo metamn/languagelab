@@ -56,6 +56,20 @@ body {
 .home #primary #text {
   background: #E73D34;
   color: white;
+  /*box-shadow: 5px -5px 0 #e52e25, 
+              15px -10px 0 #df241a,
+              25px -15px 0 #d02219,
+              30px -20px 0 #c01f17,
+              45px -25px 0 #b11d15,
+              50px -30px 0 #a21a13,
+              65px -35px 0 #931811;*/
+  box-shadow: 5px 5px 0px #eb5a52,
+              10px 10px 1px #ee7771,
+              15px 15px 1px #f2948f,
+              20px 20px 2px #f5b1ad,
+              25px 25px 2px #f9cecc,
+              30px 30px 3px #fdebea,
+              45px 45px 3px #fefaf9;
 }
 .home #primary .col-2 {
   background: none;
