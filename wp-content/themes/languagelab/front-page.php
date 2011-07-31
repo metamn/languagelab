@@ -26,6 +26,9 @@ get_header(); ?>
           <div class="triangle triangle-right"></div>
 			  </div>
 			  
+			  <div id="background-image">
+			    <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/background.jpg">
+			  </div>
 			  <div class="col col-2">
 			    <div id="video">
 			      <a id="intro-video" style="display:block;width:32em;height:22em;" href="http://languagelabsite.s3.amazonaws.com/shiv_intro.flv">

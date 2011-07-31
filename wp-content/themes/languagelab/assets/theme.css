@@ -10,7 +10,6 @@ green: A2AF04, from kuler
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: url("background.jpg") no-repeat scroll 90% 24% transparent;  
 }
 
 
@@ -47,6 +46,19 @@ body {
 #access .current_page_ancestor > a {
 	font-weight: bold;
 }
+#menu .triangle-left {
+  border-width: .625em;
+  border-color: transparent transparent transparent white;
+  top: .625em;
+  left: 28.5%;
+  z-index: 10;
+}
+#menu .triangle-right {
+  border-width: .625em;
+  border-color: transparent white transparent transparent;
+  top: 1.8em;
+  left: 98%;
+}
 
 
 
@@ -68,19 +80,22 @@ body {
   */
   font-family: 'Play', sans-serif;
 }
-.triangle-left {
+.home #primary .col-1 .triangle-left {
   border-width: 1.25em;
   border-color: transparent transparent transparent white;
   top: 1.25em;
 }
-.triangle-right {
+.home #primary .col-1 .triangle-right {
   border-width: 1.25em;
   border-color: transparent white transparent transparent;
   top: -1.25em;
   left: 92%;
 }
-.home #primary .col-2 {
-  background: none;
+.home #background-image {
+  position: absolute;
+  top: 15em;
+  right: 5em;
+  z-index: -1;
 }
 .home #primary #video {
   display: none;

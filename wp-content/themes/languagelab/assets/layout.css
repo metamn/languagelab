@@ -30,10 +30,13 @@
 */
 
 header#branding {
-  margin-bottom: 5em;
+  margin-bottom: 2.5em;
 }
 #branding hgroup {
   margin: 2.5em 0 0;
+}
+#branding hgroup h1 {
+  padding-bottom: 0;
 }
 #branding hgroup img {
   width: 100%;
