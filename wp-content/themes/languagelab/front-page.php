@@ -18,10 +18,12 @@ get_header(); ?>
 			<div id="content" role="main">
                 
         <div class="col col-1">
+          <div class="triangle triangle-left"></div>
           <div id="text">
             <?php the_post(); ?>			
             <?php the_content(); ?>
           </div>
+          <div class="triangle triangle-right"></div>
 			  </div>
 			  
 			  <div class="col col-2">

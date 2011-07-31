@@ -438,8 +438,7 @@ strong {
 }
 
 .triangle {
-  border-style: solid;  
-  display: inline;
+  border-style: solid;
   height: 0;
   width: 0;
   line-height: 0;
