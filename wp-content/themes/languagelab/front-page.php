@@ -44,7 +44,7 @@ get_header(); ?>
           })  ;
         </script>
 			
-			  <div id="icons" class="block">
+			  <div id="icons" class="block">			    
 			    <ul id="img" class="inline-list">
 			      <li>
 			        <img title="Companies" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/companies.jpg">
@@ -78,7 +78,7 @@ get_header(); ?>
 			      <li class="last">
 			        Individuals
 			      </li>
-			    </ul> 
+			    </ul>
 			  </div>
 			
 			  

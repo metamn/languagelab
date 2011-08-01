@@ -94,7 +94,7 @@ body {
 .home #background-image {
   position: absolute;
   top: 18em;
-  right: 20em;
+  left: 48%;
 }
 .home #background-image img {
   height: 30em;
@@ -108,6 +108,7 @@ body {
 .home #primary #icons {
   background: #E2971C;
 }
+
 
 .home #primary #more {
   background: #1C83E2;
