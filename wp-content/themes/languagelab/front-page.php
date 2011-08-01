@@ -81,7 +81,9 @@ get_header(); ?>
 			    </ul> 
 			  </div>
 			
+			  
 			  <div id="more" class="block">
+			    <div class="triangle triangle-left"></div>
 			    <div id="coming-soon" class="col">
 			      <h2>Coming sooon</h2>
 			      <ul>
@@ -94,7 +96,9 @@ get_header(); ?>
 			      <h2>Browse more</h2>
 			      <?php get_sidebar(); ?>
 			    </div>
+			    <div class="triangle triangle-right"></div>
 			 </div>
+			 
 			  
 			</div><!-- #content -->
 		</div><!-- #primary -->

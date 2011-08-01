@@ -4,7 +4,7 @@
 basic blue: #1C83E2, blue, taken from current site background color
 red: E73D34, from kuler
 green: A2AF04, from kuler
-
+yellow/brown: E2971C, from kuler
 */
 
 
@@ -100,10 +100,37 @@ body {
   height: 30em;
   width: auto;
 }
-
 .home #primary #video {
   display: none;
 }
+
+
+.home #primary #icons {
+  background: #E2971C;
+}
+
+.home #primary #more {
+  background: #1C83E2;
+  color: white;
+}
+.home #primary #more a, .home #primary #more a:visited {
+  color: white;
+}
+.home #primary #coming-soon {
+  padding-left: 1.25em;
+}
+.home #primary #more .triangle-left {
+  border-width: 1.25em;
+  border-color: transparent transparent transparent white;
+  top: -1.25em;
+}
+.home #primary #more .triangle-right {
+  border-width: 1.25em;
+  border-color: transparent white transparent transparent;
+  top: 23.7em;
+  left: 96.5%;
+}
+
 
 
 /* Footer
