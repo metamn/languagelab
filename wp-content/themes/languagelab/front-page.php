@@ -18,12 +18,17 @@ get_header(); ?>
 			<div id="content" role="main">
                 
         <div class="col col-1">
-          <div class="triangle triangle-left"></div>
+          <!--<div class="triangle triangle-left"></div>-->
+          <div class="arrow arrow-right">
+		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right.png">
+		      </div>
           <div id="text">
             <?php the_post(); ?>			
             <?php the_content(); ?>
           </div>
-          <div class="triangle triangle-right"></div>
+          <div class="arrow arrow-left">
+		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left.png">
+		      </div>
 			  </div>
 			  
 			  <div id="background-image">
@@ -83,7 +88,9 @@ get_header(); ?>
 			
 			  
 			  <div id="more" class="block">
-			    <div class="triangle triangle-left"></div>
+			    <div class="arrow arrow-right">
+		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right.png">
+		      </div>
 			    <div id="coming-soon" class="col">
 			      <h2>Coming sooon</h2>
 			      <ul>
@@ -96,11 +103,17 @@ get_header(); ?>
 			      <h2>Browse more</h2>
 			      <?php get_sidebar(); ?>
 			    </div>
-			    <div class="triangle triangle-right"></div>
+			    <div class="arrow arrow-left">
+		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left.png">
+		      </div>
 			 </div>
 			 
 			  
 			</div><!-- #content -->
 		</div><!-- #primary -->
+		
+		<div id="arrows">
+		  
+		</div>
 
 <?php get_footer(); ?>

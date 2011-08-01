@@ -121,6 +121,10 @@ header#branding {
   width: 30%;
   margin-right: 11%;
 }
+.home #more h2 {
+  padding-top: .312em;
+}
+
 
 /* Footer
 */
@@ -156,5 +160,15 @@ footer img {
   width: 100%;
 }
 
+.arrow {  
+  position: relative;
+}
+.arrow img {
+  width: 1.25em;
+  height: auto;
+}
+#menu .arrow img {
+  width: .625em;
+}
 
 
