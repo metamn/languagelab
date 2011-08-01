@@ -99,8 +99,7 @@ header#branding {
   height: 22em;
 }
 .home #primary #icons {
-  margin: 5em 0 2.5em;
-  padding-top: 2.5em;
+  margin: 2.5em 0;
 }
 .home #primary #icons li {
   width: 17%;
@@ -119,7 +118,7 @@ header#branding {
 */
 .home #more .col {
   width: 30%;
-  margin-right: 11.3%;
+  margin-right: 13%;
 }
 
 /* Footer

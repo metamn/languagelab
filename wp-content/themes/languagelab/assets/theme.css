@@ -93,10 +93,14 @@ body {
 }
 .home #background-image {
   position: absolute;
-  top: 15em;
-  right: 5em;
-  z-index: -1;
+  top: 18em;
+  right: 20em;
 }
+.home #background-image img {
+  height: 30em;
+  width: auto;
+}
+
 .home #primary #video {
   display: none;
 }
