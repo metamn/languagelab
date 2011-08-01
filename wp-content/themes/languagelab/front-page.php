@@ -110,10 +110,6 @@ get_header(); ?>
 			 
 			  
 			</div><!-- #content -->
-		</div><!-- #primary -->
+		</div><!-- #primary -->		
 		
-		<div id="arrows">
-		  
-		</div>
-
 <?php get_footer(); ?>
