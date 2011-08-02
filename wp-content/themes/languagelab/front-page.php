@@ -20,14 +20,14 @@ get_header(); ?>
         <div class="col col-1">
           <!--<div class="triangle triangle-left"></div>-->
           <div class="arrow arrow-right">
-		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right.png">
+		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right-red.png">
 		      </div>
           <div id="text">
             <?php the_post(); ?>			
             <?php the_content(); ?>
           </div>
           <div class="arrow arrow-left">
-		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left.png">
+		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left-red.png">
 		      </div>
 			  </div>
 			  
@@ -89,7 +89,7 @@ get_header(); ?>
 			  
 			  <div id="more" class="block">
 			    <div class="arrow arrow-right">
-		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right.png">
+		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right-blue.png">
 		      </div>
 			    <div id="coming-soon" class="col">
 			      <h2>Coming sooon</h2>
@@ -104,7 +104,7 @@ get_header(); ?>
 			      <?php get_sidebar(); ?>
 			    </div>
 			    <div class="arrow arrow-left">
-		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left.png">
+		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left-blue.png">
 		      </div>
 			 </div>
 			 

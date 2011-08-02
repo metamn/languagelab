@@ -103,7 +103,7 @@
 
       <div id="menu" class="block">
         <div class="arrow arrow-right">
-	        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right.png">
+	        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right-green.png">
 	      </div>
         <nav id="access" role="navigation">
 				  <h3 class="assistive-text"><?php _e( 'Main menu', 'twentyeleven' ); ?></h3>
@@ -114,7 +114,7 @@
 				  <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			  </nav><!-- #access -->
 			  <div class="arrow arrow-left">
-	        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left.png">
+	        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left-green.png">
 	      </div>
 			</div>
 			

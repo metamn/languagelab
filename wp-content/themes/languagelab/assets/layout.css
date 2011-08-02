@@ -117,7 +117,7 @@ header#branding {
   left: 0;
 }
 .home #primary .col-1 .arrow-left {
-  top: -1.26em;
+  top: -1.15em;
   left: 96.3%;
 }
 .home #primary #text {
@@ -129,7 +129,7 @@ header#branding {
 .home #background-image {
   position: absolute;
   top: 18.7em; /* Aligning to grid */
-  left: 48%;
+  left: 47%;
 }
 .home #background-image img {
   height: 30em;
@@ -156,6 +156,7 @@ header#branding {
   vertical-align: top;
 }
 
+
 .home #primary #more {  
   position: relative;
   top: -.3em; /* Align back to grid */
@@ -178,6 +179,7 @@ header#branding {
   top: 1.4em;
   left: 98.3%;
 }
+
 
 
 /* Footer
