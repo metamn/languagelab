@@ -10,7 +10,7 @@ basic color: #1C83E2, blue, taken from the old Languagelab site background color
 
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Play', Arial, Helvetica, sans-serif;
 }
 
 
@@ -61,17 +61,28 @@ body {
 .home #primary #text {
   background: #E73D34;
   color: white;
-  font-family: 'Play', sans-serif;
 }
 
 .home #primary #more {
   background: #1C83E2;
   color: white;
 }
+.home #primary #more h2 {
+  background: #62A7E7;
+  text-transform: uppercase;
+  box-shadow: 5px 2px 0 #ddd; 
+}
+.home #primary #more ul {
+  list-style-image: url("arrow-right-white.png");
+}
 .home #primary #more a, .home #primary #more a:visited {
   color: white;
+  text-decoration: none;
 }
-
+.home #primary #more a:active, .home #primary #more a:hover {
+  color: white;
+  border-bottom: 1px dotted;
+}
 
 
 /* Footer
@@ -80,3 +91,12 @@ body {
 footer {
   border-top: 1px solid;
 }
+
+footer a, footer a:visited {
+  color: black;
+  text-decoration: none;
+}
+footer a:hover, footer a:active {
+  border-bottom: 1px dotted;
+}
+
