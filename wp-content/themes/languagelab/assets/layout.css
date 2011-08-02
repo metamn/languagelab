@@ -48,8 +48,22 @@ header#branding {
 /* Main menu
 */
 
+#menu {
+  margin-top: .9em; /* Aligning back to the grid after the logo */
+}
+#menu .arrow-right {
+  top: .9em;
+  left: 28.5%;
+  z-index: 1;
+}
+#menu .arrow-left {
+  top: -.6em;
+  left: 98.9%;
+  width: 1.25em;
+}
+
 #access {
-	margin-left: 28.5%;
+	margin-left: 28.5%; /* Align to the logo strapline */
 }
 #access ul {
 	list-style: none;
@@ -94,12 +108,40 @@ header#branding {
 /* Startpage
 */
 
+.home #primary .col-1 {
+  position: relative;
+  top: -.5em; /* Align to grid */
+}
+.home #primary .col-1 .arrow-right {
+  top: 1.5em;
+  left: 0;
+}
+.home #primary .col-1 .arrow-left {
+  top: -1.26em;
+  left: 96.3%;
+}
 .home #primary #text {
   padding: 1.25em;
-  height: 22em;
+  height: 22.5em; /* Align to grid */
 }
+
+
+.home #background-image {
+  position: absolute;
+  top: 18.7em; /* Aligning to grid */
+  left: 48%;
+}
+.home #background-image img {
+  height: 30em;
+  width: auto;
+}
+.home #primary #video {
+  display: none;
+}
+
+
 .home #primary #icons {
-  margin: 1.25em 0 2.5em;
+  margin: .625em 0 2.5em;
   padding-top: 1.25em;
 }
 .home #primary #icons li {
@@ -114,9 +156,10 @@ header#branding {
   vertical-align: top;
 }
 
-
-/* Sidebar on startpage 
-*/
+.home #primary #more {  
+  position: relative;
+  top: -.3em; /* Align back to grid */
+}
 .home #more .col {
   width: 30%;
   margin-right: 11%;
@@ -124,13 +167,24 @@ header#branding {
 .home #more h2 {
   padding-top: .312em;
 }
+.home #primary #coming-soon {
+  padding-left: 1.25em;
+}
+.home #primary #more .arrow-right {
+  top: -1.2em;
+  left: 0;
+}
+.home #primary #more .arrow-left {
+  top: 1.4em;
+  left: 98.3%;
+}
 
 
 /* Footer
 */
 
 footer {
-  margin: 2.5em 0;
+  margin: 3.1em 0;
   padding-top: 1.25em;
 }
 footer img {
@@ -162,6 +216,7 @@ footer img {
 
 .arrow {  
   position: relative;
+  max-width: 1.25em;
 }
 .arrow img {
   width: 1.25em;
