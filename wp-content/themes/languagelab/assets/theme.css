@@ -4,10 +4,9 @@
 basic color: #1C83E2, blue, taken from the old Languagelab site background color
   - lighter blue: #12C7F9, from kuler
   - red: E73D34, from kuler
-  - green: A2AF04, from kuler
-    all derivations from 0to255.com:
-    - lighter, +2: c1d005, +3: d0e105 
-    - darker: -5: 555c02
+  - green / menu: A2AF04, from kuler
+    - active: E9FB06, from kuler
+      - active highlight: EFFC51, from kuler
     
 */
 
@@ -28,30 +27,34 @@ body {
   color: white;
 }
 #access ul ul a {
-	background: #c1d005;
+	background: #E9FB06;
 	border-bottom: 1px dotted #656d02;
 	color: #555c02;	
 }
 #access li:hover > a,
 #access ul ul :hover > a,
 #access a:focus {
-	background: #d0e105;
+	background: #EFFC51;
 }
 #access li:hover > a,
 #access a:focus {
-	background: #c1d005; /* Show a solid color for older browsers */
+	background: #E9FB06; /* Show a solid color for older browsers */
 	/*
 	background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
 	background: -o-linear-gradient(#f9f9f9, #e5e5e5);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); 
 	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
 	*/
-	color: #555c02;
+	color: #555c02 !important;
 }
 #access li.current_page_item > a,
 #access li.current_page_ancestor > a {
-  color: #555c02;
+  color: #EFFC51;
 }
+#access li.current_page_ancestor li.current_page_item > a {
+  color: #9DA804;
+}
+
 
 
 /* Start page
