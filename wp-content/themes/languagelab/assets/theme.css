@@ -1,10 +1,14 @@
 /* Color definitions
 
 
-basic blue: #1C83E2, blue, taken from current site background color
-red: E73D34, from kuler
-green: A2AF04, from kuler
-yellow/brown: E2971C, from kuler
+basic color: #1C83E2, blue, taken from the old Languagelab site background color
+  - lighter blue: #12C7F9, from kuler
+  - red: E73D34, from kuler
+  - green: A2AF04, from kuler
+    all derivations from 0to255.com:
+    - lighter, +2: c1d005, +3: d0e105 
+    - darker: -5: 555c02
+    
 */
 
 
@@ -20,33 +24,34 @@ body {
 #access li {
   background: #A2AF04;
 }
-#access li a, #access li a:visited {
+#access li a {
   color: white;
 }
 #access ul ul a {
-	background: #f9f9f9;
-	border-bottom: 1px dotted #ddd;
-	color: #444;	
+	background: #c1d005;
+	border-bottom: 1px dotted #656d02;
+	color: #555c02;	
 }
 #access li:hover > a,
 #access ul ul :hover > a,
 #access a:focus {
-	background: #efefef;
+	background: #d0e105;
 }
 #access li:hover > a,
 #access a:focus {
-	background: #f9f9f9; /* Show a solid color for older browsers */
+	background: #c1d005; /* Show a solid color for older browsers */
+	/*
 	background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
 	background: -o-linear-gradient(#f9f9f9, #e5e5e5);
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* Older webkit syntax */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); 
 	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
-	color: #373737;
+	*/
+	color: #555c02;
 }
-#access .current_page_item > a,
-#access .current_page_ancestor > a {
-	font-weight: bold;
+#access li.current_page_item > a,
+#access li.current_page_ancestor > a {
+  color: #555c02;
 }
-
 
 
 /* Start page
