@@ -77,9 +77,8 @@ header#branding {
 #access a {
 	display: block;
 	line-height: 2.5em;
-	padding: 0 1.2em;
+	padding: 0 1.44em;
 	text-decoration: none;	
-  font-variant: small-caps;
 }
 #access ul ul {
 	display: none;
@@ -92,7 +91,7 @@ header#branding {
 	z-index: 99999;
 }
 #access ul ul li a {
-  padding-left: 1.25em;
+  padding-left: 1.5em;
 }
 #access ul ul ul {
 	left: 100%;
