@@ -131,7 +131,7 @@ header#branding {
 
 .home #background-image {
   position: absolute;
-  top: 18.7em; /* Aligning to grid */
+  top: 21em; /* Aligning to grid */
   left: 47%;
 }
 .home #background-image img {
