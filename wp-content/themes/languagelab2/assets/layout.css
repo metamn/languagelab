@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+/* Fibonacci, em 
+h1, h2, h3 { margin-top:0; margin-bottom:0; }
+h1 { font-size:4.23077em; padding:1.29532em 0; }
+h2 { font-size:2.61538em; padding:1.28666em 0; }
+h3 { font-size:1.61538em; padding:1.30936em 0; }
+*/
+
+
+
+/* The Grid
+*/
+
+header {
+  width: 33%;
+  position: fixed;
+}
+#main {
+  margin-left: 38.195%; /* The Golden ratio */    
+}
+
+
+
+/* Header
+*/
+
+header #site-description {
+  font-size: 4.23077em;
+}
+
+
+/* Main Menu */
+
+#access ul {
+	list-style: none;
+	margin: 0;
+}
+#access li {
+	float: left;
+	position: relative;
+	margin-bottom: 0;
+}
+#access a {
+	display: block;
+	line-height: 2.5em;
+	padding: 0 1.44em 0 0;
+	text-decoration: none;	
+}
+#access ul ul {
+	display: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 2.5em;
+	left: 0;
+	z-index: 99999;
+}
+#access ul ul li a {
+  padding-left: 1.5em;
+}
+#access ul ul ul {
+	left: 100%;
+	top: 0;
+}
+#access ul ul a {
+	height: auto;
+	line-height: 1.4em;
+	padding: .612em;
+	width: 15em;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+
+
+footer {
+  display: none;
+}
+
+
+
+
+
+/* General
+*/
+
+.mobile {
+  display: none;
+}
+.desktop {
+  display: block;
+}
+
+/* hiding TwentyEleven elements */
+.assistive-text, .skip-link {
+  display: none;
+}
+
+/* Setting up block elements (like adding class '.block') */
+#content, #primary, #secondary, footer {
+  float: left;
+  width: 100%;
+}
+
+.arrow {  
+  position: relative;
+  max-width: 1.25em;
+}
+.arrow img {
+  width: 1.25em;
+  height: auto;
+}
+#menu .arrow img {
+  width: .625em;
+}
+
+#theme-switcher {
+  float: right;
+  margin-right: 1em;
+}
