@@ -33,7 +33,7 @@ get_header(); ?>
 			  </div>
 			  
 			  <div id="background-image">
-			    <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/background.jpg">
+			    <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/background-video.jpg">
 			  </div>
 			  <div class="col col-2">
 			    <div id="video">

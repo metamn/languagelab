@@ -13,6 +13,25 @@ body {
   font-family: 'Play', Arial, Helvetica, sans-serif;
 }
 
+.triangle-right {
+  border-color: white white white transparent;
+  border-width: 86em;
+  left: 0;
+  position: fixed;
+  z-index: -2;
+  background: url("dot-blue.png");  
+}
+
+.triangle-left {
+  border-color: white transparent white white;
+  border-width: 45em;
+  right: 0;
+  top: -60%;
+  position: fixed;
+  z-index: -1;
+  background: url("dot-red.png");  
+}
+
 
 
 /* Main menu 
