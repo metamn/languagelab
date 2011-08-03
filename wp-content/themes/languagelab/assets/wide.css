@@ -1,5 +1,37 @@
 #page.hfeed {
-  max-width: 80em; /* 1280px */
+  width: 75%; 
+  margin: 0 auto;
 }
 
+/* Header 
+*/
+#branding hgroup {
+  margin: .625em 0 0;
+}
+header#branding {
+  margin-bottom: 0em;
+}
+
+
+
+/* Menu 
+*/
+#menu {
+  margin-top: -.2em; /* Aligning back to the grid after the logo */
+}
+#menu .arrow-right {
+  left: 18.5%;  
+}
+#access {
+	margin-left: 18.5%; /* Align to the logo strapline */
+}
+
+
+/* Startpage
+*/
+
+.home #background-image {
+  top: 14em; /* Aligning to grid */
+  left: 40%;
+}
 

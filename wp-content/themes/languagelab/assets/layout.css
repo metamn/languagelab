@@ -1,12 +1,4 @@
-
-/* 
-- setting up the main container width
-- max-width is set in the respective responsive stylesheets
-*/
-#page.hfeed {
-  width: 68em; /* fixed width 1088px */
-  margin: 0 auto;
-}
+/* Page width is set in the responsive stylesheets */
 
 
 /* The symmetric, two column grid
@@ -29,12 +21,6 @@
 /* Header 
 */
 
-header#branding {
-  margin-bottom: 2.5em;
-}
-#branding hgroup {
-  margin: 2.5em 0 0;
-}
 #branding hgroup h1 {
   padding-bottom: 0;
 }
@@ -48,23 +34,16 @@ header#branding {
 /* Main menu
 */
 
-#menu {
-  margin-top: .9em; /* Aligning back to the grid after the logo */
-}
 #menu .arrow-right {
   top: .9em;
-  left: 28.5%;
   z-index: 1;
 }
 #menu .arrow-left {
   top: -.6em;
-  left: 98.9%;
   width: 1.25em;
+  left: 98.9%;
 }
 
-#access {
-	margin-left: 28.5%; /* Align to the logo strapline */
-}
 #access ul {
 	list-style: none;
 	margin: 0;
@@ -131,8 +110,7 @@ header#branding {
 
 .home #background-image {
   position: absolute;
-  top: 21em; /* Aligning to grid */
-  left: 47%;
+  z-index: -1;
 }
 .home #background-image img {
   height: 30em;
@@ -163,7 +141,7 @@ header#branding {
 
 .home #primary #more {  
   position: relative;
-  top: -.3em; /* Align back to grid */
+  top: -.8em; /* Align back to grid */
 }
 .home #more .col {
   width: 30%;
@@ -191,7 +169,7 @@ header#branding {
 */
 
 footer {
-  margin: 3.1em 0;
+  margin: 2.25em 0; /* Align back to grid */
   padding-top: 1.25em;
 }
 footer img {

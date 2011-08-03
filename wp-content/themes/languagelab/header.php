@@ -69,11 +69,11 @@
 
   <link href='http://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
 
-  <!--
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.init.js" type="text/javascript"></script>  
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.grid.js" type="text/javascript"></script>
-  -->
+  
 
   <?php
 	  /* We add some JavaScript to pages with the comment form
