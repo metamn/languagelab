@@ -16,33 +16,13 @@ get_header(); ?>
 
 		<div id="primary">
 			<div id="content" role="main">
-                
-        
-        <div class="col col-1">
-          <!--<div class="triangle triangle-left"></div>-->
-          <div class="arrow arrow-right">
-		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right-red.png">
-		      </div>
-          <div id="text">
-            <?php the_post(); ?>			
-            <?php the_content(); ?>
-          </div>
-          <div class="arrow arrow-left">
-		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left-red.png">
-		      </div>
-			  </div>
-			  
-			  <div id="background-image">
-			    <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/background-video.jpg">
-			  </div>
-			  <div class="col col-2">
-			    <div id="video">
-			      <a id="intro-video" style="display:block;width:32em;height:22em;" href="http://languagelabsite.s3.amazonaws.com/shiv_intro.flv">
-			      </a>
-			    </div>
+          
+        <div id="video">
+			     <a id="intro-video"  href="http://languagelabsite.s3.amazonaws.com/shiv_intro.flv">
+			     </a>
 			  </div>
 			  <script language="JavaScript">
-	        flowplayer("intro-video", "http://localhost/languagelab/wp-content/themes/languagelab/assets/flowplayer-3.2.7.swf", {
+	        flowplayer("intro-video", "<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.7.swf", {
             clip:  {
                 autoPlay: false,
                 autoBuffering: true
@@ -50,48 +30,41 @@ get_header(); ?>
           })  ;
         </script>
 			
+                
 			  <div id="icons" class="block">			    
-			    <ul id="img" class="inline-list">
+			    <ul class="inline-list">
 			      <li>
 			        <img title="Companies" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/companies.jpg">
+			        <div>Companies</div>
 			      </li>
 			      <li>
 			        <img title="Universities" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/universities.jpg">
+			        <div>Universities</div>
 			      </li>
 			      <li>
 			        <img title="Study Abroad Agents" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/agents.jpg">
+			        <div>Study Abroad Agents</div>
 			      </li>
 			      <li>
 			        <img title="English Language Schools" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/schools.jpg">
+			        <div>English Language Schools</div>
 			      </li>
 			      <li class="last">
 			        <img title="Individuals" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/individuals.jpg">
+			        <div>Individuals</div>
 			      </li>
-			    </ul>
-			    <ul id="txt" class="inline-list">
-			      <li>
-			        Companies
-			      </li>
-			      <li>
-			        Universities
-			      </li>
-			      <li>
-			        Study Abroad Agents
-			      </li>
-			      <li>
-			        English Language Schools
-			      </li>
-			      <li class="last">
-			        Individuals
-			      </li>
-			    </ul>
+			    </ul>			    
 			  </div>
 			
+			
+			  <div id="text">
+          <?php the_post(); ?>			
+          <?php the_content(); ?>
+        </div>
+          			  
 			  
-			  <div id="more" class="block">
-			    <div class="arrow arrow-right">
-		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right-blue.png">
-		      </div>
+			  
+			  <div id="more">
 			    <div id="coming-soon" class="col">
 			      <h2>Coming sooon</h2>
 			      <ul>
@@ -103,10 +76,7 @@ get_header(); ?>
 			    <div id="sidebar" class="col">
 			      <h2>Browse more</h2>
 			      <?php get_sidebar(); ?>
-			    </div>
-			    <div class="arrow arrow-left">
-		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left-blue.png">
-		      </div>
+			    </div>			    
 			 </div>
 			 
 			  
