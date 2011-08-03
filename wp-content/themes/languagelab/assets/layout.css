@@ -16,7 +16,10 @@
 }
 
 
-
+#theme-switcher {
+  float:right;
+  margin-right: 1em;
+}
 
 /* Header 
 */
@@ -110,7 +113,6 @@
 
 .home #background-image {
   position: absolute;
-  z-index: -1;
 }
 .home #background-image img {
   height: 30em;

@@ -92,11 +92,14 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="background">
-  <div class="triangle triangle-right"></div>
-  <div class="triangle triangle-left"></div>
-</div>
 
+<div id="theme-switcher">
+  <?php
+  if ( function_exists( 'nkthemeswitch_cloud' ) ) {
+    echo nkthemeswitch_cloud( $target = '_blank', $passkey = false, $screenshot = false, $addname = false );
+  }
+  ?>
+</div>
 
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
