@@ -4,7 +4,7 @@
 - base, red/magenta, #FF19B9, derived from video background image
   - green, for text background: AAFF59, from kuler
 - base, gray: #6D6E71, from social icons
-
+- base, yellow: #E5FF8C, taken from the current ubuntu theme
 */
 
 
@@ -27,7 +27,7 @@ ul#menu-sidebar a, ul#menu-sidebar a:visited {
 #menu a:hover, #menu a:active, 
 ul.nav a:hover, ul.nav a:active,
 ul#menu-sidebar a:hover, ul#menu-sidebar a:active {
-  color: #3C3C3E;  
+  color: #3C3C3E ;  
 }
 #menu .sub-menu li, 
 ul.nav li,
@@ -53,5 +53,16 @@ ul#menu-sidebar li {
 .home #text {
   background: #AAFF59; 
   color: #333;
+}
+
+.home #coming-soon li a, .home #coming-soon li a:visited {
+  color: black;
+  background: #E5FF8C;
+}
+
+.highlight-links a {
+  background: #f9f9f9; 
+  color: #333 !important;
+  padding-left: .312em !important;
 }
 

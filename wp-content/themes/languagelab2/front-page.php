@@ -70,8 +70,8 @@ get_header(); ?>
 			  <div id="coming-soon">
 		      <h2>Coming sooon</h2>
 		      <ul>
-		        <li>Market Leader Live</li>
-		        <li>English for Hotels</li>
+		        <li><a href="">Market Leader Live</a></li>
+		        <li><a href="">English for Hotels</a></li>		        
 		      </ul>
 		    </div>
 			    

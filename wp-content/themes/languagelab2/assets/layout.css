@@ -135,13 +135,27 @@ header h2 {
   padding: 0 1.25em 1.25em;
 }
 
+
+.home #coming-soon ul {
+  list-style: none;
+  margin-left: 1.25em;
+  
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-size: 2.61538em;
+}
+.home #coming-soon li a, .home #coming-soon li a:visited {
+  text-decoration: none;
+  padding: .1em .2em;
+}
+
+
 .home #targets, .home #sidebar {
   float: right;
   width: 50%;
   margin-left: 11.805%;
 }
 .home #targets {
-  margin-top: 1.65em /* Align to grid */
+  margin-top: 2em /* Align to grid */
 }
 
 
