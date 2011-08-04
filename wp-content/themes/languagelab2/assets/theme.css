@@ -2,6 +2,7 @@
 
 - base, blue: #6072fb, derived from video background image
 - base, red/magenta, #FF19B9, derived from video background image
+  - green, for text background: AAFF59, from kuler
 - base, gray: #6D6E71, from social icons
 
 */
@@ -48,3 +49,9 @@ ul#menu-sidebar li {
   
   color: white;
 }
+
+.home #text {
+  background: #AAFF59; 
+  color: #333;
+}
+

@@ -68,7 +68,7 @@
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.6.min.js" type="text/javascript"></script>
 
   <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
-
+  <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
 
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
