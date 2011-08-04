@@ -34,41 +34,45 @@ header h2 {
 */
 
 #access ul, ul.nav, ul#menu-sidebar {
-	list-style: none;
-	margin: 0;
+  list-style: none;
+  margin: 0;
 }
 #access li {
-	float: left;
-	position: relative;
+  float: left;
+  position: relative;
+  margin-bottom: 0;
 }
 #access a, ul.nav a, ul#menu-sidebar a {
-	display: block;
-	padding: 0 1.5em 0 0;
-	text-decoration: none;	
+  display: block;
+  line-height: 2.5em;
+  padding: 0 1.44em 0 0;
+  text-decoration: none;
 }
 #access ul ul {
-	display: none;
-	float: left;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 2.5em;
-	left: 0;
-	z-index: 99999;
+  display: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 2.5em;
+  left: 0;
+  z-index: 99999;
 }
 #access ul ul li a {
   padding-left: 0;
 }
 #access ul ul ul {
-	left: 100%;
-	top: 0;
+  left: 100%;
+  top: 0;
 }
 #access ul ul a {
-	height: auto;
-	width: 17em;
+  height: auto;
+  line-height: 1.4em;
+  padding: .612em;
+  width: 15em;
 }
 #access ul li:hover > ul {
-	display: block;
+  display: block;
 }
 
 
@@ -80,12 +84,15 @@ header h2 {
   bottom: 0;
 }
 #social li {
-  margin-right: .625em;
+  margin-right: 2.5em;
 }
 #social li.last {
   margin-right: 0;
 }
-
+#social img {
+  width: 64px;
+  height: auto;
+}
 
 
 /* Startpage 
@@ -104,7 +111,7 @@ header h2 {
 .home #video img {
   position: relative;
   top: -17.5em;
-  left: 20em;
+  left: 19em;
 }
 .home #video .info {
   position: relative;
@@ -114,7 +121,9 @@ header h2 {
 }
 .home #video .info h3 {
   padding: .625em;
+  text-align: center;
 }
+
 
 .home #text, .home #coming-soon {
   width: 38.195%;
@@ -123,6 +132,7 @@ header h2 {
   text-align: justify;
   margin: 1em 0 5em; /* Align to grid */
 }
+
 .home #targets, .home #sidebar {
   float: right;
   width: 50%;
