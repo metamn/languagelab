@@ -97,12 +97,29 @@ header h2 {
 
 .home #video {
   width: 43.65em;
-  margin: 8em auto;
+  margin: 8em auto 0;
 }
 .home #video a {
-  display:block;
-  width: 43.65em; /* the width/height ratios is 1.455 */
+  display: block;
+  width: 43.65em; /* the width/height ratio is 1.455 */
   height: 30em;
+  background-image: url("background-video.png");
+}
+.home #video img {
+  position: relative;
+  top: -17.5em;
+  left: 20em;
+}
+.home #video .info {
+  position: relative;
+  width: 100%;
+  height: 3em;
+  top: -8.3em;
+  background: gray;
+  opacity: .7;
+}
+.home #video .info h3 {
+  padding: .625em;
 }
 
 .home #text, .home #coming-soon {

@@ -18,11 +18,16 @@ get_header(); ?>
 			<div id="content" role="main">
           
         <div id="video">
-			     <a id="intro-video"  href="http://languagelabsite.s3.amazonaws.com/shiv_intro.flv">
-			     </a>
+			     <a id="intro-video"  href="http://languagelabsite.s3.amazonaws.com/shiv_intro.flv"></a>
+			     
+			     <img alt="Play this video" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/play_large.png">
+			     
+			     <div class="info">
+			      <h3>Come And Visit English City</h3>
+			     </div>
 			  </div>
 			  <script language="JavaScript">
-	        flowplayer("intro-video", "<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.7.swf", {
+	        flowplayer("video", "<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.7.swf", {
             clip:  {
                 autoPlay: false,
                 autoBuffering: true
