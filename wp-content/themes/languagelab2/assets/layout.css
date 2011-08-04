@@ -33,7 +33,7 @@ header h2 {
 /* Main Menu 
 */
 
-#access ul {
+#access ul, ul.nav, ul#menu-sidebar {
 	list-style: none;
 	margin: 0;
 }
@@ -42,7 +42,7 @@ header h2 {
 	position: relative;
 	margin-bottom: 0;
 }
-#access a {
+#access a, ul.nav a, ul#menu-sidebar a {
 	display: block;
 	line-height: 2.5em;
 	padding: 0 1.44em 0 0;
@@ -95,39 +95,29 @@ header h2 {
 /* Startpage 
 */
 
+.home #video {
+  width: 43.65em;
+  margin: 8em auto;
+}
 .home #video a {
   display:block;
-  width: 70em;
-  height: 48.1em;
+  width: 43.65em; /* the width/height ratios is 1.455 */
+  height: 30em;
 }
 
-.home #text, .home #more {
+.home #text, .home #coming-soon {
   width: 38.195%;
+  text-align: justify;
+  margin-bottom: 5em;
 }
-
-.home #icons {
-  width: 50%;
-  margin-left: 10%;
+.home #targets, .home #sidebar {
   float: right;
-  margin: 2.5em 0;
-}
-.home #icons ul {
-  list-style: none;
-}
-.home #icons li {
-  font-size: large;
-  margin-bottom: 2.5em;
-  width: 44%;
-  margin-right: 5%;
-  vertical-align: bottom;
-}
-.home #icons li div {
-  margin: .312em 0;
+  width: 50%;
+  margin-left: 11.805%;
 }
 
 
-
-footer, #primary {
+footer {
   display: none;
 }
 

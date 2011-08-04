@@ -19,13 +19,19 @@ header h2 {
 /* Menu
 */
 
-#menu a, #menu a:visited {
+#menu a, #menu a:visited, 
+ul.nav a, ul.nav a:visited,
+ul#menu-sidebar a, ul#menu-sidebar a:visited {
   color: #6D6E71;
 }
-#menu a:hover, #menu a:active {
+#menu a:hover, #menu a:active, 
+ul.nav a:hover, ul.nav a:active,
+ul#menu-sidebar a:hover, ul#menu-sidebar a:active {
   color: #3C3C3E;  
 }
-#menu .sub-menu li {
+#menu .sub-menu li, 
+ul.nav li,
+ul#menu-sidebar li {
   border-bottom: 1px solid #B7B7BD;
 }
 

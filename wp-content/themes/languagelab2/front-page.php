@@ -30,55 +30,47 @@ get_header(); ?>
           })  ;
         </script>
 			
-                
-			  <div id="icons" class="block">			    
-			    <ul class="inline-list">
+			  <div id="targets">			    
+		      <ul class="nav">
 			      <li>
-			        <img title="Companies" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/companies.jpg">
-			        <div>Companies</div>
+			        <a href="">Companies</a>
 			      </li>
 			      <li>
-			        <img title="Universities" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/universities.jpg">
-			        <div>Universities</div>
+			        <a href="">Universities</a>
 			      </li>
 			      <li>
-			        <img title="Study Abroad Agents" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/agents.jpg">
-			        <div>Study Abroad Agents</div>
+			        <a href="">Study Abroad Agents</a>
 			      </li>
 			      <li>
-			        <img title="English Language Schools" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/schools.jpg">
-			        <div>English Language Schools</div>
+			        <a href="">English Language Schools</a>
 			      </li>
 			      <li class="last">
-			        <img title="Individuals" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/individuals.jpg">
-			        <div>Individuals</div>
+			        <a href="">Individuals</a>
 			      </li>
-			    </ul>			    
+			    </ul>
 			  </div>
+			  
 			
-			
-			  <div id="text">
+        <div id="text">
           <?php the_post(); ?>			
           <?php the_content(); ?>
-        </div>
-          			  
+        </div>  
 			  
-			  
-			  <div id="more">
-			    <div id="coming-soon" class="col">
-			      <h2>Coming sooon</h2>
-			      <ul>
-			        <li>Market Leader Live</li>
-			        <li>English for Hotels</li>
-			      </ul>
-			    </div>
-			    
-			    <div id="sidebar" class="col">
-			      <h2>Browse more</h2>
-			      <?php get_sidebar(); ?>
-			    </div>			    
-			 </div>
+			  <div id="sidebar">
+		      <h2>Browse more</h2>
+		      <?php get_sidebar(); ?>
+		    </div>			    
 			 
+			  
+			  <div id="coming-soon">
+		      <h2>Coming sooon</h2>
+		      <ul>
+		        <li>Market Leader Live</li>
+		        <li>English for Hotels</li>
+		      </ul>
+		    </div>
+			    
+			    
 			  
 			</div><!-- #content -->
 		</div><!-- #primary -->		
