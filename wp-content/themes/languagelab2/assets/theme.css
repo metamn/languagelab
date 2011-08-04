@@ -1,8 +1,7 @@
 /* Colors
 
-- base, blue: #00FAFF, from logo
-  - red/magenta, #FF19B9, from kuler 
-
+- base, blue: #6072fb, derived from video background image
+- base, red/magenta, #FF19B9, derived from video background image
 - base, gray: #6D6E71, from social icons
 
 */
@@ -35,3 +34,10 @@ ul#menu-sidebar li {
   border-bottom: 1px solid #B7B7BD;
 }
 
+
+/* Startpage
+*/
+
+.home #video .info {
+  background: #6D6E71;
+}
