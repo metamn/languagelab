@@ -1,2 +1,31 @@
+/* Colors
 
+- base, blue: #00FAFF, from logo
+  - red/magenta, #FF19B9, from kuler 
+
+- base, gray: #6D6E71, from social icons
+
+*/
+
+
+/* Header
+*/
+
+header h2 {
+  color: #FF19B9;
+}
+
+
+/* Menu
+*/
+
+#menu a, #menu a:visited {
+  color: #6D6E71;
+}
+#menu a:hover, #menu a:active {
+  color: #3C3C3E;  
+}
+#menu .sub-menu li {
+  border-bottom: 1px solid #B7B7BD;
+}
 

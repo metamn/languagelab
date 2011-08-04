@@ -30,7 +30,8 @@ header h2 {
 
 
 
-/* Main Menu */
+/* Main Menu 
+*/
 
 #access ul {
 	list-style: none;
@@ -58,7 +59,7 @@ header h2 {
 	z-index: 99999;
 }
 #access ul ul li a {
-  padding-left: 1.5em;
+  padding-left: 0;
 }
 #access ul ul ul {
 	left: 100%;
@@ -72,6 +73,21 @@ header h2 {
 }
 #access ul li:hover > ul {
 	display: block;
+}
+
+
+/* Social icons
+*/
+
+#social {
+  position: fixed;
+  bottom: 0;
+}
+#social li {
+  margin-right: .625em;
+}
+#social li.last {
+  margin-right: 0;
 }
 
 
@@ -111,7 +127,7 @@ header h2 {
 
 
 
-footer {
+footer, #primary {
   display: none;
 }
 

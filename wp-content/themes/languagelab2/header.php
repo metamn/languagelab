@@ -70,9 +70,10 @@
   <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
 
 
-  <!--
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.init.js" type="text/javascript"></script>  
+  <!--
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.grid.js" type="text/javascript"></script>
   -->
 
@@ -128,7 +129,7 @@
           <li><img title="View more videos on Youtube" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/youtube.png"></li>
           <li><img title="View more images on Flick" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flickr.png"></li>
           <li><img title="Follow us on Twitter" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/twitter.png"></li>
-          <li><img title="Be our friend on Facebook" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/facebook.png"></li>
+          <li class="last"><img title="Be our friend on Facebook" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/facebook.png"></li>
         </ul>
 			</div>
 			
