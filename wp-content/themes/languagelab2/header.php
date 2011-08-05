@@ -57,10 +57,10 @@
   <![endif]-->
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/mobile.css" charset="utf-8" media="screen and (max-width: 480px)" rel="stylesheet" type="text/css" />
-  <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/tablet.css" charset="utf-8" media="screen and (min-width: 481px) and (max-width: 1024px)" rel="stylesheet" type="text/css" />
-	<link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/wide.css" charset="utf-8" media="screen and (min-width: 1025px) and (max-width: 1399px)" rel="stylesheet" type="text/css" />
   <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/large.css" charset="utf-8" media="screen and (min-width: 1400px)" rel="stylesheet" type="text/css" />  
+  <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/wide.css" charset="utf-8" media="screen and (min-width: 1025px) and (max-width: 1399px)" rel="stylesheet" type="text/css" />
+  <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/tablet.css" charset="utf-8" media="screen and (min-width: 481px) and (max-width: 1024px)" rel="stylesheet" type="text/css" />	
+  <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/mobile.css" charset="utf-8" media="screen and (max-width: 480px)" rel="stylesheet" type="text/css" />
   <!--[if IE]>
     <link href="/assets/ie.css" media="all" type="text/css" rel="stylesheet">  
 	<![endif]-->
@@ -70,7 +70,6 @@
   <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
 
-  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.init.js" type="text/javascript"></script>  
   <!--
