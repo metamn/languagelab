@@ -24,10 +24,10 @@
 			<div class="col col-2">
 			  <div id="social">
 			    <ul id="social" class="inline-list">
-            <li><img title="View more videos on Youtube" src="wp-content/themes/languagelab/assets/youtube.png"></li>
-            <li><img title="View more images on Flick" src="wp-content/themes/languagelab/assets/flickr.png"></li>
-            <li><img title="Follow us on Twitter" src="wp-content/themes/languagelab/assets/twitter.png"></li>
-            <li><img title="Be our friend on Facebook" src="wp-content/themes/languagelab/assets/facebook.png"></li>
+            <li><img title="View more videos on Youtube" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/youtube.png"></li>
+            <li><img title="View more images on Flick" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flickr.png"></li>
+            <li><img title="Follow us on Twitter" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/twitter.png"></li>
+            <li><img title="Be our friend on Facebook" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/facebook.png"></li>
           </ul>
 			  </div>
 			</div>

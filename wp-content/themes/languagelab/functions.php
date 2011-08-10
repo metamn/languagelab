@@ -20,7 +20,7 @@ function get_images($size = 'thumbnail') {
 	return $results;
 }
 
-// Filter wp_nav_menu() to add additional links and other output
+// Filter wp_nav_menu() to add additional links
 // - only main menu navigation is considered, sidebar menu will have no 'Home' added
 function new_nav_menu_items($items) {
   if ( !(strpos($items, 'Our Services') === false) ) {
