@@ -1,8 +1,29 @@
-/* Page width is set in the responsive stylesheets */
+
+/* Theme basics
+
+- This theme is trying to look the same on all different desktop / laptop monitors
+  - the page width is set individually on each responsive stylesheet instead of being set globally
+  - page width is not set according to a strict rule but freely to stay aesthetic
+
+- The grid is also responsive, not fixed globally
+   
+- It is adapted also to tablets and smartphones
+
+
+*/
+
+
+#page.hfeed {
+  width: 56.67%; /* 68em */
+  margin: 0 auto;
+}
+
 
 
 /* The symmetric, two column grid
 */
+
+
 .col {
   width: 45%;
   float: left;
@@ -16,14 +37,18 @@
 }
 
 
-#theme-switcher {
-  float:right;
-  margin-right: 1em;
-}
+
 
 /* Header 
 */
 
+
+#branding hgroup {
+  margin: 2.5em 0 0;
+}
+header#branding {
+  margin-bottom: 2.5em;
+}
 #branding hgroup h1 {
   padding-bottom: 0;
 }
@@ -37,6 +62,10 @@
 /* Main menu
 */
 
+
+#menu {
+  margin-top: .9em; /* Aligning back to the grid after the logo */
+}
 #menu .arrow-right {
   top: .9em;
   z-index: 1;
@@ -44,7 +73,7 @@
 #menu .arrow-left {
   top: -.6em;
   width: 1.25em;
-  left: 98.9%;
+  left: 99%;
 }
 
 #access ul {
@@ -59,7 +88,6 @@
 #access a {
 	display: block;
 	line-height: 2.5em;
-	padding: 0 1.44em;
 	text-decoration: none;	
 }
 #access ul ul {
@@ -93,9 +121,10 @@
 /* Startpage
 */
 
+
 .home #primary .col-1 {
-  position: relative;
   top: -.5em; /* Align to grid */
+  position: relative;
 }
 .home #primary .col-1 .arrow-right {
   top: 1.5em;
@@ -105,6 +134,7 @@
   top: -1.15em;
   left: 96.3%;
 }
+
 .home #primary #text {
   padding: 1.25em;
   height: 22.5em; /* Align to grid */
@@ -114,6 +144,8 @@
 .home #background-image {
   position: absolute;
   z-index: -1;
+  top: 21em; /* Aligning to grid */
+  left: 47%;
 }
 .home #background-image img {
   height: 30em;
@@ -124,14 +156,15 @@
 }
 
 
+
 .home #primary #icons {
   margin: .625em 0 2.5em;
   padding-top: 1.25em;
 }
 .home #primary #icons li {
+  text-align: center;
   width: 17%;
   margin-right: 3.3%;  
-  text-align: center;
   font-size: large;
 }
 .home #primary #icons li.last {
@@ -212,6 +245,11 @@ footer img {
 }
 #menu .arrow img {
   width: .625em;
+}
+
+#theme-switcher {
+  float:right;
+  margin-right: 1em;
 }
 
 
