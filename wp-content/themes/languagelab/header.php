@@ -74,7 +74,7 @@
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.init.js" type="text/javascript"></script>  
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.grid.js" type="text/javascript"></script>
   -->
-
+  
   <?php
 	  /* We add some JavaScript to pages with the comment form
 	   * to support sites with threaded comments (when in use).

@@ -1,11 +1,70 @@
+
+#page.hfeed {
+  width: 90%; 
+}
+
+
+/* Header 
+*/
+
+header#branding {
+  margin: 2.5em 0;
+}
+header img {
+  width: 30%;
+  height: auto;
+}
+
+
+/* Main menu
+*/
+
+#menu {
+  position: relative;
+  top: -4.4em;
+}
 #menu .arrow-right {
-  left: 0;  
+  left: 33%;  
 }
 #access {
-	margin-left: 0; /* Align to the logo strapline */
+	margin-left: 33%; /* Align to the logo strapline */
 }
 #access a {
-	padding: 0 1.12em;
+	padding: 0 1.4em;
 }
+
+
+
+/* Startpage 
+*/
+
+.home #primary {
+  position: relative;
+  top: -7.5em;
+}
+.home #primary #text {
+  height: 20.5em; /* Align to grid */
+}
+
+.home #background-image {
+  top: 1em; /* Aligning to grid */
+  left: 48%;
+}
+.home #background-image img {
+  height: 28em;
+}
+
+.home #primary #icons {
+  margin: 0;
+  padding: 0;
+}
+.home #primary #icons img {
+  width: 40%;
+}
+
+
+
+
+
 
 

@@ -1,71 +1,30 @@
 
 /* Theme basics
 
-- This theme is trying to look the same on all different desktop / laptop monitors
-  - the page width is set individually on each responsive stylesheet instead of being set globally
-  - page width is not set according to a strict rule but freely to stay aesthetic
-
-- The grid is also responsive, not fixed globally
-   
-- It is adapted also to tablets and smartphones
+- This theme is trying to look the same on all different monitors from desktop, tablet to smartphone
 
 
 */
 
 
 #page.hfeed {
-  width: 56.67%; /* 68em */
   margin: 0 auto;
 }
-
-
-
-/* The symmetric, two column grid
-*/
-
-
-.col {
-  width: 45%;
-  float: left;
-}
-.col-1 {
-  margin-right: 10%;
-}
-.col-2  {
-  float: right;
-  text-align: right;
-}
-
 
 
 
 /* Header 
 */
 
-
-#branding hgroup {
-  margin: 2.5em 0 0;
+header#branding h1 {
+  padding: 0;
 }
-header#branding {
-  margin-bottom: 2.5em;
-}
-#branding hgroup h1 {
-  padding-bottom: 0;
-}
-#branding hgroup img {
-  width: 100%;
-  height: auto;
-}
-
 
 
 /* Main menu
 */
 
 
-#menu {
-  margin-top: .9em; /* Aligning back to the grid after the logo */
-}
 #menu .arrow-right {
   top: .9em;
   z-index: 1;
@@ -122,10 +81,27 @@ header#branding {
 */
 
 
-.home #primary .col-1 {
-  top: -.5em; /* Align to grid */
-  position: relative;
+
+/* The symmetric, two column grid
+*/
+
+
+.col {
+  width: 45%;
+  float: left;
 }
+.col-1 {
+  margin-right: 10%;
+}
+.col-2  {
+  float: right;
+  text-align: right;
+}
+
+
+
+
+
 .home #primary .col-1 .arrow-right {
   top: 1.5em;
   left: 0;
@@ -137,18 +113,14 @@ header#branding {
 
 .home #primary #text {
   padding: 1.25em;
-  height: 22.5em; /* Align to grid */
 }
 
 
 .home #background-image {
   position: absolute;
   z-index: -1;
-  top: 21em; /* Aligning to grid */
-  left: 47%;
 }
 .home #background-image img {
-  height: 30em;
   width: auto;
 }
 .home #primary #video {
@@ -217,6 +189,7 @@ footer img {
 /* General
 */
 
+
 .mobile {
   display: none;
 }
@@ -250,6 +223,7 @@ footer img {
 #theme-switcher {
   float:right;
   margin-right: 1em;
+  display: none;
 }
 
 

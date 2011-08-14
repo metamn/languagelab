@@ -1,3 +1,25 @@
+
+#page.hfeed {
+  width: 56.67%; 
+}
+
+
+/* Header 
+*/
+
+header#branding {
+  margin: 3.75em 0;
+}
+header img {
+  width: 100%;
+  height: auto;;
+}
+
+
+/* Main menu
+*/
+
+
 #menu .arrow-right {
   left: 28.5%;  
 }
@@ -8,4 +30,19 @@
 	padding: 0 1.4em;
 }
 
+
+/* Startpage
+*/
+
+.home #primary #text {
+  height: 22.5em; /* Align to grid */
+}
+
+.home #background-image {
+  top: 18em; /* Aligning to grid */
+  left: 47%;
+}
+.home #background-image img {
+  height: 30em;
+}
 
