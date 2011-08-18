@@ -15,21 +15,15 @@ header img {
   height: auto;;
 }
 
-
-/* Main menu
+/* Menu
 */
 
-
-#menu .arrow-right {
-  left: 28.5%;  
-}
 #access {
-	margin-left: 28.5%; /* Align to the logo strapline */
+  float: right;
 }
-#access a {
-	padding: 0 1.4em;
+#access li a {
+  padding: 0 1.7em;
 }
-
 
 /* Startpage
 */

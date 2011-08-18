@@ -24,17 +24,6 @@ header#branding h1 {
 /* Main menu
 */
 
-
-#menu .arrow-right {
-  top: .9em;
-  z-index: 1;
-}
-#menu .arrow-left {
-  top: -.6em;
-  width: 1.25em;
-  left: 99%;
-}
-
 #access ul {
 	list-style: none;
 	margin: 0;
@@ -80,6 +69,19 @@ header#branding h1 {
 /* Startpage
 */
 
+.home #primary #text, 
+.home #primary #more {
+  -webkit-border-top-left-radius: 8%;
+  -webkit-border-bottom-right-radius: 8%;
+  -moz-border-radius-topleft: 8%;
+  -moz-border-radius-bottomright: 8%;
+  border-top-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+}
+
+
+
+
 
 
 /* The symmetric, two column grid
@@ -102,14 +104,6 @@ header#branding h1 {
 
 
 
-.home #primary .col-1 .arrow-right {
-  top: 1.5em;
-  left: 0;
-}
-.home #primary .col-1 .arrow-left {
-  top: -1.15em;
-  left: 96.3%;
-}
 
 .home #primary #text {
   padding: 1.25em;
@@ -162,15 +156,6 @@ header#branding h1 {
 .home #primary #coming-soon {
   padding-left: 1.25em;
 }
-.home #primary #more .arrow-right {
-  top: -1.2em;
-  left: 0;
-}
-.home #primary #more .arrow-left {
-  top: 1.4em;
-  left: 98.3%;
-}
-
 
 
 /* Footer
