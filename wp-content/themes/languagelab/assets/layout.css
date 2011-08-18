@@ -16,8 +16,18 @@
 /* Header 
 */
 
-header#branding h1 {
+header .col-1 {
+  float: left;
+}
+header .col-2 {
+  float: right;
+}
+header h1 {
   padding: 0;
+}
+header img {
+  width: 100%;
+  height: auto;
 }
 
 

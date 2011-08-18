@@ -7,31 +7,30 @@
 /* Header 
 */
 
+
+.col-1 {
+  width: 40%;
+  margin-right: 10%;
+}
+.col-2 {
+  width: 60%;
+}
 header#branding {
   margin: 2.5em 0;
 }
-header img {
-  width: 30%;
-  height: auto;
-}
+
 
 
 /* Main menu
 */
 
-#menu {
-  position: relative;
-  top: -4.4em;
+#access li a {
+  padding: 0 .625em;
 }
-
 
 /* Startpage 
 */
 
-.home #primary {
-  position: relative;
-  top: -7.5em;
-}
 .home #primary #text {
   height: 20.5em; /* Align to grid */
 }

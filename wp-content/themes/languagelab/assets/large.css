@@ -7,12 +7,12 @@
 /* Header 
 */
 
+header .col-1, header .col-2 {
+  width: 100%;
+}
+
 header#branding {
   margin: 3.75em 0;
-}
-header img {
-  width: 100%;
-  height: auto;;
 }
 
 /* Menu
@@ -22,8 +22,9 @@ header img {
   float: right;
 }
 #access li a {
-  padding: 0 1.7em;
+  padding: 0 1.45em;
 }
+
 
 /* Startpage
 */

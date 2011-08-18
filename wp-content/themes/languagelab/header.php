@@ -103,25 +103,26 @@
 
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
-			
-			<hgroup>
-				<h1 id="site-title">
-				  <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				    <img title="Languagelab Logo" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/logo.jpg" /></a></h1>
-				<h2 id="site-description" class="hidden"><?php bloginfo( 'description' ); ?></h2>
-			</hgroup>
+		
+		<hgroup class="col col-1">
+			<h1 id="site-title">
+			  <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+			    <img title="Languagelab Logo" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/logo.jpg" /></a></h1>
+			<h2 id="site-description" class="hidden"><?php bloginfo( 'description' ); ?></h2>
+		</hgroup>
 
-      <div id="menu" class="block">
-        <nav id="access" role="navigation">
-				  <h3 class="assistive-text"><?php _e( 'Main menu', 'twentyeleven' ); ?></h3>
-				  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff. */ ?>
-				  <div class="skip-link"><a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to primary content', 'twentyeleven' ); ?>"><?php _e( 'Skip to primary content', 'twentyeleven' ); ?></a></div>
-				  <div class="skip-link"><a class="assistive-text" href="#secondary" title="<?php esc_attr_e( 'Skip to secondary content', 'twentyeleven' ); ?>"><?php _e( 'Skip to secondary content', 'twentyeleven' ); ?></a></div>
-				  <?php /* Our navigation menu.  If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assiged to the primary position is the one used. If none is assigned, the menu with the lowest ID is used. */ ?>
-				  <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-			  </nav><!-- #access -->			  
-			</div>
-			
+		
+		<div id="menu" class="col col-1">
+      <nav id="access" role="navigation">
+			  <h3 class="assistive-text"><?php _e( 'Main menu', 'twentyeleven' ); ?></h3>
+			  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff. */ ?>
+			  <div class="skip-link"><a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to primary content', 'twentyeleven' ); ?>"><?php _e( 'Skip to primary content', 'twentyeleven' ); ?></a></div>
+			  <div class="skip-link"><a class="assistive-text" href="#secondary" title="<?php esc_attr_e( 'Skip to secondary content', 'twentyeleven' ); ?>"><?php _e( 'Skip to secondary content', 'twentyeleven' ); ?></a></div>
+			  <?php /* Our navigation menu.  If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assiged to the primary position is the one used. If none is assigned, the menu with the lowest ID is used. */ ?>
+			  <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		  </nav><!-- #access -->			  
+		</div>	
+		
 	</header><!-- #branding -->
 
 
