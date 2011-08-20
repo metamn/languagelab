@@ -1,0 +1,14 @@
+/*
+Theme Name:     Old (Languagelab)
+Theme URI:      http://languagelab.com/
+Description:    Child theme for the Twenty Eleven theme 
+Author:         metamn
+Author URI:     http://twitter.com/metamn
+Template:       twentyeleven
+Version:        0.0.1
+*/
+
+
+@import url("assets/base.css");
+@import url("assets/layout.css");
+@import url("assets/theme.css");

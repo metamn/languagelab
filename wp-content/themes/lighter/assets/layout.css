@@ -1,0 +1,230 @@
+/* Page width is set in the responsive stylesheets */
+
+
+/* The symmetric, two column grid
+*/
+.col {
+  width: 45%;
+  float: left;
+}
+.col-1 {
+  margin-right: 10%;
+}
+.col-2  {
+  float: right;
+  text-align: right;
+}
+
+
+/* Header 
+*/
+
+#branding hgroup h1 {
+  padding-bottom: 0;
+}
+#branding hgroup img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* Main menu
+*/
+
+#menu .arrow-right {
+  top: .9em;
+  z-index: 1;
+}
+#menu .arrow-left {
+  top: -.6em;
+  width: 1.25em;
+  left: 98.9%;
+}
+
+#access ul {
+	list-style: none;
+	margin: 0;
+}
+#access li {
+	float: left;
+	position: relative;
+	margin-bottom: 0;
+}
+#access a {
+	display: block;
+	line-height: 2.5em;
+	padding: 0 1.44em;
+	text-decoration: none;	
+}
+#access ul ul {
+	display: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 2.5em;
+	left: 0;
+	z-index: 99999;
+}
+#access ul ul li a {
+  padding-left: 1.5em;
+}
+#access ul ul ul {
+	left: 100%;
+	top: 0;
+}
+#access ul ul a {
+	height: auto;
+	line-height: 1.4em;
+	padding: .612em;
+	width: 15em;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+
+
+/* Startpage
+*/
+
+.home #primary .col-1 {
+  position: relative;
+  top: -.5em; /* Align to grid */
+}
+.home #primary .col-1 .arrow-right {
+  top: 1.5em;
+  left: 0;
+}
+.home #primary .col-1 .arrow-left {
+  top: -1.15em;
+  left: 96.3%;
+}
+.home #primary #text {
+  padding: 1.25em;
+  padding-bottom: 3.75em;
+}
+
+
+.home #video a {
+  display: block;
+  margin-top: 3.75em;
+  width: 30.75em;
+  height: 22em;
+}
+.home #video img.background-video, .home #video a {
+  position: relative;
+}
+
+.home #primary #icons {
+  margin: .625em 0 2.5em;
+  padding-top: 1.25em;
+}
+.home #primary #icons li {
+  width: 17%;
+  margin-right: 3.3%;  
+  text-align: center;
+  font-size: large;
+}
+.home #primary #icons li.last {
+  margin-right: 0;
+}
+.home #primary #icons #txt li {
+  vertical-align: top;
+}
+
+
+.home #primary #more {  
+  position: relative;
+  top: -.8em; /* Align back to grid */
+}
+.home #more .col {
+  width: 30%;
+  margin-right: 10%;
+}
+.home #more h2 {
+  padding: .312em;
+  margin: 0 0 .938em 0;
+}
+.home #primary #coming-soon {
+  padding-left: 1.25em;
+}
+.home #primary #more .arrow-right {
+  top: -1.2em;
+  left: 0;
+}
+.home #primary #more .arrow-left {
+  top: 1.4em;
+  left: 98.3%;
+}
+
+
+.home #sidebar {
+  text-align: center;
+  margin-top: 1.25em;
+}
+.home #sidebar ul {
+  display: block;
+  margin: 0;
+}
+.home #sidebar ul li {  
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 0;
+  margin-right: .625em;
+}
+
+
+
+/* Footer
+*/
+
+footer {
+  margin: 2.25em 0; /* Align back to grid */
+  padding-top: 1.25em;
+}
+footer img {
+  width: 32px;
+  height: auto;
+}
+
+
+/* General
+*/
+
+.mobile {
+  display: none;
+}
+.desktop {
+  display: block;
+}
+
+/* hiding TwentyEleven elements */
+.assistive-text, .skip-link {
+  display: none;
+}
+
+/* Setting up block elements (like adding class '.block') */
+#branding, #main, #content, #primary, #secondary, footer {
+  float: left;
+  width: 100%;
+}
+
+.arrow {  
+  position: relative;
+  max-width: 1.25em;
+}
+.arrow img {
+  width: 1.25em;
+  height: auto;
+}
+#menu .arrow img {
+  width: .625em;
+}
+
+
+#theme-switcher {
+  float:right;
+  margin-right: 1em;
+}
+

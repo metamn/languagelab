@@ -1,0 +1,143 @@
+/* Color definitions
+
+base color: #ffcc00, yellow
+  - logo: #407BFF, blue
+  - menu: ##CACC14, green
+    
+*/
+
+
+body {
+  font-family: 'Play', Arial, Helvetica, sans-serif;
+  background: url("background.png") scroll repeat 0 0 transparent;
+}
+
+
+
+
+/* Main menu 
+*/
+
+#access li {
+  background: #CACC14;
+}
+#access li a {
+  color: white;
+}
+#access ul ul a {
+	background: #f3f3f3;
+	border-bottom: 1px dotted #ddd;
+	color: #1c83e2;	
+}
+#access li:hover > a,
+#access ul ul :hover > a,
+#access a:focus {
+	background: #f0f0f0;
+}
+#access li:hover > a,
+#access a:focus {
+	background: #f3f3f3; /* Show a solid color for older browsers */
+	/*
+	background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
+	background: -o-linear-gradient(#f9f9f9, #e5e5e5);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); 
+	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
+	*/
+	color: #1c83e2 !important;
+}
+#access li.current_page_item > a,
+#access li.current_page_ancestor > a {
+  color: #444;
+}
+#access li.current_page_ancestor li.current_page_item > a {
+  color: #A2AF04;
+}
+
+
+
+/* Start page
+*/
+
+.home #primary #text {
+  background: #ffcc00;
+  color: #333;
+}
+
+
+.home #img .companies {
+  background: #00ad5d;
+}
+.home #img .universities {
+  background: #94d401;
+}
+.home #img .agents {
+  background: #fbe201;
+}
+.home #img .schools {
+  background: #f9ca02;
+}
+.home #img .individuals {
+  background: #ff9900;
+}
+
+
+.home #txt .companies {
+  background: #02752a;
+}
+.home #txt .universities {
+  background: #599f01;
+}
+.home #txt .agents {
+  background: #c8a200;
+}
+.home #txt .schools {
+  background: #c89100;
+}
+.home #txt .individuals {
+  background: #c86e00;
+}
+
+.home #icons #txt li {
+  color: white;
+}
+
+
+
+.home #primary #more {
+  background: #333;
+  color: #ddd;
+}
+.home #primary #more h2 {
+  text-transform: uppercase;
+}
+.home #primary #more a, .home #primary #more a:visited {
+  color: #ddd;
+  text-decoration: none;
+}
+.home #primary #more a:active, .home #primary #more a:hover {
+  color: #ddd;
+  border-bottom: 1px dotted;
+}
+
+.home #sidebar a, .home #sidebar a:visited {
+  color: #1C83E2;
+  text-decoration: none;
+  text-shadow: 0 1px #ccc;
+}
+
+
+/* Footer
+*/
+
+footer {
+  border-top: 1px solid;
+}
+
+footer a, footer a:visited {
+  color: black;
+  text-decoration: none;
+}
+footer a:hover, footer a:active {
+  border-bottom: 1px dotted;
+}
+

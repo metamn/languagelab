@@ -1,0 +1,27 @@
+/* Page width 
+*/
+
+#page.hfeed {
+  width: 90%; 
+  margin: 0 auto;
+}
+
+
+/* Menu 
+*/
+#menu .arrow-right {
+  left: 15.3%;  
+}
+#access {
+	margin-left: 15.3%; /* Align to the logo strapline */
+}
+
+
+/* Startpage
+*/
+
+.home #video a {
+  margin-top: 5em;
+  width: 24.75em;
+  height: 18em;
+}

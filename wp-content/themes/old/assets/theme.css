@@ -1,0 +1,68 @@
+/* Colors
+
+- base, blue: #6072fb, derived from video background image
+- base, red/magenta, #FF19B9, derived from video background image
+  - green, for text background: AAFF59, from kuler
+- base, gray: #6D6E71, from social icons
+- base, yellow: #E5FF8C, taken from the current ubuntu theme
+*/
+
+
+/* Header
+*/
+
+header h2 {
+  color: #FF19B9;
+}
+
+
+/* Menu
+*/
+
+#menu a, #menu a:visited, 
+ul.nav a, ul.nav a:visited,
+ul#menu-sidebar a, ul#menu-sidebar a:visited {
+  color: #6D6E71;
+}
+#menu a:hover, #menu a:active, 
+ul.nav a:hover, ul.nav a:active,
+ul#menu-sidebar a:hover, ul#menu-sidebar a:active {
+  color: #3C3C3E ;  
+}
+#menu .sub-menu li, 
+ul.nav li,
+ul#menu-sidebar li {
+  border-bottom: 1px solid #B7B7BD;
+}
+
+
+/* Startpage
+*/
+
+.home #video .info {
+  background: #6D6E71;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+  
+  color: white;
+}
+
+.home #text {
+  background: #FFE032; /*AAFF59; */
+  color: #333;
+}
+
+.home #coming-soon li a, .home #coming-soon li a:visited {
+  color: black;
+  background: #E5FF8C;
+}
+
+.highlight-links a {
+  background: #f9f9f9; 
+  color: #333 !important;
+  padding-left: .312em !important;
+}
+
