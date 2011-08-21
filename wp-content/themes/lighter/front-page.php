@@ -17,30 +17,22 @@ get_header(); ?>
 		<div id="primary">
 			<div id="content" role="main">
                 
-        
         <div class="col col-1">
-          <!--<div class="triangle triangle-left"></div>-->
-          <div class="arrow arrow-right">
-		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right-red.png">
-		      </div>
           <div id="text">
             <?php the_post(); ?>			
             <?php the_content(); ?>
-          </div>
-          <div class="arrow arrow-left">
-		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left-red.png">
-		      </div>
-			  </div>
-			  
-			  <div class="col col-2">
-			    <div id="video">
-			      <a id="intro-video"  href="http://languagelabsite.s3.amazonaws.com/shiv_intro.flv">
-			        <img class="background-video" alt="Play this video" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/background-video.jpg">			     
-			      </a>
-			   </div>
-			  </div>
-			  <script language="JavaScript">
-	        flowplayer("intro-video", "<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.7.swf", {
+          </div>          
+		    </div>
+		    
+		    <div class="col col-2">
+		      <div id="video">
+		        <a id="intro-video"  href="http://languagelabsite.s3.amazonaws.com/shiv_intro.flv">
+		          <img class="background-video" alt="Play this video" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/background-video.jpg">			     
+		        </a>
+		     </div>
+		    </div>
+		    <script language="JavaScript">
+          flowplayer("intro-video", "<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.7.swf", {
             clip:  {
                 autoPlay: false,
                 autoBuffering: true
@@ -51,19 +43,19 @@ get_header(); ?>
 			  <div id="icons" class="block">			    
 			    <ul id="img" class="inline-list">
 			      <li>
-			        <img title="Companies" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/companies.jpg">
+			        <img title="Companies" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/companies.png">
 			      </li>
 			      <li>
-			        <img title="Universities" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/universities.jpg">
+			        <img title="Universities" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/universities.png">
 			      </li>
 			      <li>
-			        <img title="Study Abroad Agents" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/agents.jpg">
+			        <img title="Study Abroad Agents" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/agents.png">
 			      </li>
 			      <li>
-			        <img title="English Language Schools" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/schools.jpg">
+			        <img title="English Language Schools" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/schools.png">
 			      </li>
 			      <li class="last">
-			        <img title="Individuals" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/individuals.jpg">
+			        <img title="Individuals" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/individuals.png">
 			      </li>
 			    </ul>
 			    <ul id="txt" class="inline-list">
@@ -87,10 +79,8 @@ get_header(); ?>
 			
 			  
 			  <div id="more" class="block">
-			    <div class="arrow arrow-right">
-		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right-blue.png">
-		      </div>
-			    <div id="coming-soon" class="col">
+			    
+			    <div id="coming-soon" class="col col-1">
 			      <h2>Coming sooon</h2>
 			      <ul>
 			        <li>Market Leader Live</li>
@@ -98,36 +88,55 @@ get_header(); ?>
 			      </ul>
 			    </div>
 			    
-			    <div id="contact-form" class="col">
-			      <h2>Contact Us</h2>
-			      <ul>
-			        <li>
-			          Your name
-			          <input id="name" type="text" class="text" />
-			        </li>
-			        <li>
-			          Your e-mail
-			          <input id="email" type="text" class="text" />
-			        </li>
-			        <li>
-			          Your message
-			          <textarea id="message" type="text"></textarea>
-			        </li>
-			        <li>
-			          <input name="submit" type="submit" value="Send message" class="button" />
-			        </li>
-			      </ul>
+			    <div id="contact-form" class="col col-2">
+			      <h2>Get A Quick Quote &rarr;</h2>
+			      <div class='form block'>
+			        <ul class="left">
+			          <li>
+			            Your name *
+			            <input id="name" type="text" class="text" />
+			          </li>
+			          <li>
+			            Your e-mail *
+			            <input id="email" type="text" class="text" />
+			          </li>
+			          <li>
+			            Your message *
+			            <textarea id="message" type="text"></textarea>
+			          </li>
+			          <li>
+			            <input name="submit" type="submit" value="Get Quote" class="button" />
+			          </li>
+			        </ul>
+			        <ul class="right">
+			          <li>
+			            Job Title *
+			            <input id="job" type="text" class="text" />
+			          </li>
+			          <li>
+			            Phone No. *
+			            <input id="phone" type="text" class="text" />
+			          </li>
+			          <li>
+			            Company *
+			            <input id="company" type="text" class="text" />
+			          </li>			        
+			        </ul>
+			       </div>
 			    </div>
-			    			    
-			    <div class="arrow arrow-left">
-		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left-blue.png">
-		      </div>
+			    
+			    <div class="col col-1">&nbsp;</div>
+			    <div id="sidebar" class="col col-2">
+	          <?php get_sidebar(); ?>
+	        </div>
+   			  
 			 </div>
-			 
-			 <div id="sidebar" class="block">
-	        <?php get_sidebar(); ?>
-	      </div>
-			  
+		
+		  <div id="scroll">
+		    <a href="#icons">
+		      <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-scroll.png"></a>	      
+		  </div>	 
+			 			  
 			</div><!-- #content -->
 		</div><!-- #primary -->		
 		

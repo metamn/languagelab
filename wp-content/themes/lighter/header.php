@@ -70,10 +70,14 @@
   
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.6.min.js" type="text/javascript"></script>
 
-  <link href='http://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
-
+  <link href='http://fonts.googleapis.com/css?family=Metrophobic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+  <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.scrollTo-min.js" type="text/javascript"></script>  
+  <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.localscroll-min.js" type="text/javascript"></script>  
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.init.js" type="text/javascript"></script>  
   <!--
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.grid.js" type="text/javascript"></script>
@@ -109,9 +113,6 @@
 			</hgroup>
 
       <div id="menu" class="block">
-        <div class="arrow arrow-right">
-	        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right-green.png">
-	      </div>
         <nav id="access" role="navigation">
 				  <h3 class="assistive-text"><?php _e( 'Main menu', 'twentyeleven' ); ?></h3>
 				  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff. */ ?>
@@ -120,10 +121,7 @@
 				  <?php /* Our navigation menu.  If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assiged to the primary position is the one used. If none is assigned, the menu with the lowest ID is used. */ ?>
 				  <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			  </nav><!-- #access -->
-			  <div class="arrow arrow-left">
-	        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left-green.png">
-	      </div>
-			</div>
+			 </div>
 			
 	</header><!-- #branding -->
 

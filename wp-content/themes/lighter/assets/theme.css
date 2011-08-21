@@ -1,17 +1,18 @@
+
+
 /* Color definitions
 
 
 basic color: #407CFF, blue
   - lighter blue: #598DFF, from kuler
-  - red: E73D34, from kuler
-  - green / menu: A2AF04, from kuler
+  - red: #FF7559, from kuler
+  - green / menu: 80B224, from kuler
     
 */
 
 
 body {
-  font-family: 'Play', Arial, Helvetica, sans-serif;
-  background: url("background.png") scroll repeat 0 0 transparent;
+  font-family: 'Metrophobic', Arial, Helvetica, sans-serif;
 }
 
 
@@ -29,7 +30,7 @@ body {
 #access ul ul a {
 	background: #f3f3f3;
 	border-bottom: 1px dotted #ddd;
-	color: #1c83e2;	
+	color: #407CFF;	
 }
 #access li:hover > a,
 #access ul ul :hover > a,
@@ -45,14 +46,26 @@ body {
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); 
 	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
 	*/
-	color: #1c83e2 !important;
+	color: #407CFF !important;
 }
 #access li.current_page_item > a,
 #access li.current_page_ancestor > a {
   color: #444;
 }
 #access li.current_page_ancestor li.current_page_item > a {
-  color: #A2AF04;
+  color: #80B224;
+}
+#access li.menu-item-home {
+  -moz-border-radius: 1.25em 0 0 1.25em;
+  -webkit-border-radius: 1.25em 0 0 1.25em;
+  border-radius: 1.25em 0 0 1.25em;
+  /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+}
+#access li.menu-item-41 {
+  -moz-border-radius: 0 1.25em 1.25em 0;
+  -webkit-border-radius: 0 1.25em 1.25em 0;
+  border-radius: 0 1.25em 1.25em 0;
+  /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
 }
 
 
@@ -63,20 +76,47 @@ body {
 .home #primary #text {
   background: #FF7559;
   color: #333;
+  -moz-border-radius: 1.25em;
+  -webkit-border-radius: 1.25em;
+  border-radius: 1.25em;
+  /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
 }
+.home #text a, #home #text a:visited {
+  text-decoration: none;
+  color: #333;
+}
+.home #text a:active, .home #text a:hover {
+  border-bottom: 1px dotted;
+}
+
 
 .home #primary #more {
   background: #407CFF;
   color: white;
+    -moz-border-radius: 1.25em;
+  -webkit-border-radius: 1.25em;
+  border-radius: 1.25em;
+  /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
 }
 .home #primary #more h2 {
-  background: #598DFF;
+  background: #62A7E7;
   text-transform: uppercase;
-  box-shadow: 5px 2px 0 #ddd; 
+  box-shadow: 2px 2px 0 #ddd; 
+  -moz-border-radius: .625em;
+  -webkit-border-radius: .625em;
+  border-radius: .625em;
+  /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
 }
-.home #primary #more ul {
+.home #primary #more #coming-soon ul,
+.home #sidebar ul {
   list-style-image: url("arrow-right-white.png");
 }
+.home #more input, .home #more textarea {
+  background: #62A7E7;
+  border-color: #5FDBFE;
+  color: #f9f9f9;
+}
+
 .home #primary #more a, .home #primary #more a:visited {
   color: white;
   text-decoration: none;
@@ -86,11 +126,12 @@ body {
   border-bottom: 1px dotted;
 }
 
-.home #sidebar a, .home #sidebar a:visited {
-  color: #407CFF;
-  text-decoration: none;
-  text-shadow: 0 1px #ccc;
+
+.home #scroll {
+  opacity: .1;
 }
+
+
 
 
 /* Footer

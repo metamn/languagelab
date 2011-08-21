@@ -7,6 +7,8 @@
 }
 
 
+
+
 /* Menu 
 */
 #menu .arrow-right {
@@ -25,3 +27,16 @@
   width: 24.75em;
   height: 18em;
 }
+
+.home #text a, #home #text a:visited {
+  border-bottom: 1px dotted;
+}
+
+
+/* Scroll on Startpage
+*/
+
+.home #scroll {
+  display: block;
+}
+

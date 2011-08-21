@@ -24,7 +24,7 @@ function get_images($size = 'thumbnail') {
 // - only main menu navigation is considered, sidebar menu will have no 'Home' added
 function new_nav_menu_items($items) {
   if ( !(strpos($items, 'Our Services') === false) ) {
-	  $homelink = '<li class="menu-item"><a title="' . __('Home') . '" href="' . home_url( '/' ) . '">' . __('Home') . '</a></li>';
+	  $homelink = '<li class="menu-item menu-item-home"><a title="' . __('Home') . '" href="' . home_url( '/' ) . '">' . __('Home') . '</a></li>';
 	  $items = $homelink . $items;
 	}
 	return $items;
