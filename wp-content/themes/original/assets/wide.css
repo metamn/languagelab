@@ -41,3 +41,12 @@ header#branding {
   color: white;
   border-bottom: 1px dotted;
 }
+
+
+/* Scroll on Startpage
+*/
+
+.home #scroll {
+  display: block;
+}
+

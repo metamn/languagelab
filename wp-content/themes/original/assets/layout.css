@@ -186,12 +186,17 @@
   margin-bottom: 2.5em;
 }
 
+
 .home #scroll {
   display: none;
   position: absolute;
+  cursor: pointer;
+  bottom: 1em;
+  right: 1em;
 }
-
-
+.home #scroll img {
+  width: 3.75em;
+}
 
 
 /* Footer

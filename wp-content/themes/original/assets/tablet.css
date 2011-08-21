@@ -38,57 +38,7 @@
 /* Scroll on Startpage
 */
 
-.home .col-1 {
-  margin-right: 5%;
-}
-.home .col-2 {
-  float: left;
-  text-align: left;
-}
-.home #more, .home #icons {
-  display: none;
-}
 .home #scroll {
   display: block;
-  bottom: 12em;
-  right: 1em;
-}
-.home #scroll img {
-  width: 1.75em;
-}
-.home #icons li {
-  background: #E73D34;
-}
-.home #icons #img li {
-  padding-top: 1.25em;
-  vertical-align: top;
-  height: 3.75em;
-  -moz-border-radius:12px 12px 0px 0px;
-  -webkit-border-radius:12px 12px 0px 0px;
-  border-radius:12px 12px 0px 0px;
-}
-.home #icons #txt li {
-  height: 2.5em;
-  padding-top: .625em;
-  color: white;
-  
-  
-  -moz-border-radius:0px 0px 12px 12px;
-  -webkit-border-radius:0px 0px 12px 12px;
-  border-radius:0px 0px 12px 12px;
-  background-image: -moz-linear-gradient(top, #e73d34, #c01f17);
-  background-image: -webkit-gradient(linear, center top, center bottom, from(#e73d34), to(#c01f17));
-  background-image: -o-linear-gradient(top, #e73d34, #c01f17);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e73d34', endColorstr='#c01f17');
-  /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
-  /*Element must have a height (not auto)*/
-  /*All filters must be placed together*/
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#e73d34', endColorstr='#c01f17')";
-  /*Element must have a height (not auto)*/
-  /*All filters must be placed together*/
-  background-image: linear-gradient(top, #e73d34, #c01f17);
-}
-.home #icons img {
-  width: 64px;
 }
 

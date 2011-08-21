@@ -74,6 +74,8 @@
 
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+  <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.scrollTo-min.js" type="text/javascript"></script>  
+  <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.localscroll-min.js" type="text/javascript"></script>  
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.init.js" type="text/javascript"></script>  
   <!--
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/jquery.grid.js" type="text/javascript"></script>

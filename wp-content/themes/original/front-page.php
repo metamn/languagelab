@@ -17,37 +17,35 @@ get_header(); ?>
 		<div id="primary">
 			<div id="content" role="main">
                 
-        <div id="intro">
-          <div class="col col-1">
-            <!--<div class="triangle triangle-left"></div>-->
-            <div class="arrow arrow-right">
-		          <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right-red.png">
-		        </div>
-            <div id="text">
-              <?php the_post(); ?>			
-              <?php the_content(); ?>
-            </div>
-            <div class="arrow arrow-left">
-		          <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left-red.png">
-		        </div>
-			    </div>
-			    
-			    <div class="col col-2">
-			      <div id="video">
-			        <a id="intro-video"  href="http://languagelabsite.s3.amazonaws.com/shiv_intro.flv">
-			          <img class="background-video" alt="Play this video" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/background-video.jpg">			     
-			        </a>
-			     </div>
-			    </div>
-			    <script language="JavaScript">
-	          flowplayer("intro-video", "<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.7.swf", {
-              clip:  {
-                  autoPlay: false,
-                  autoBuffering: true
-              }
-            })  ;
-          </script>
-        </div>
+        <div class="col col-1">
+          <!--<div class="triangle triangle-left"></div>-->
+          <div class="arrow arrow-right">
+	          <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right-red.png">
+	        </div>
+          <div id="text">
+            <?php the_post(); ?>			
+            <?php the_content(); ?>
+          </div>
+          <div class="arrow arrow-left">
+	          <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left-red.png">
+	        </div>
+		    </div>
+		    
+		    <div class="col col-2">
+		      <div id="video">
+		        <a id="intro-video"  href="http://languagelabsite.s3.amazonaws.com/shiv_intro.flv">
+		          <img class="background-video" alt="Play this video" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/background-video.jpg">			     
+		        </a>
+		     </div>
+		    </div>
+		    <script language="JavaScript">
+          flowplayer("intro-video", "<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.7.swf", {
+            clip:  {
+                autoPlay: false,
+                autoBuffering: true
+            }
+          })  ;
+        </script>
 			
 			  <div id="icons" class="block">			    
 			    <ul id="img" class="inline-list">
@@ -148,7 +146,8 @@ get_header(); ?>
 			 </div>
 		
 		  <div id="scroll">
-		    <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-scroll.png">	      
+		    <a href="#icons">
+		      <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-scroll.png"></a>	      
 		  </div>	 
 			 			  
 			</div><!-- #content -->
