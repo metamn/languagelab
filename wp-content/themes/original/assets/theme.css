@@ -72,11 +72,18 @@ body {
 .home #primary #more h2 {
   background: #62A7E7;
   text-transform: uppercase;
-  box-shadow: 5px 2px 0 #ddd; 
+  box-shadow: 2px 2px 0 #ddd; 
 }
-.home #primary #more ul {
+.home #primary #more #coming-soon ul,
+.home #sidebar ul {
   list-style-image: url("arrow-right-white.png");
 }
+.home #more input, .home #more textarea {
+  background: #62A7E7;
+  border-color: #5FDBFE;
+  color: #f9f9f9;
+}
+
 .home #primary #more a, .home #primary #more a:visited {
   color: white;
   text-decoration: none;
@@ -86,11 +93,9 @@ body {
   border-bottom: 1px dotted;
 }
 
-.home #sidebar a, .home #sidebar a:visited {
-  color: #1C83E2;
-  text-decoration: none;
-  text-shadow: 0 1px #ccc;
-}
+
+
+
 
 
 /* Footer

@@ -90,7 +90,8 @@ get_header(); ?>
 			    <div class="arrow arrow-right">
 		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right-blue.png">
 		      </div>
-			    <div id="coming-soon" class="col">
+			    
+			    <div id="coming-soon" class="col col-1">
 			      <h2>Coming sooon</h2>
 			      <ul>
 			        <li>Market Leader Live</li>
@@ -98,36 +99,55 @@ get_header(); ?>
 			      </ul>
 			    </div>
 			    
-			    <div id="contact-form" class="col">
-			      <h2>Contact Us</h2>
-			      <ul>
-			        <li>
-			          Your name
-			          <input id="name" type="text" class="text" />
-			        </li>
-			        <li>
-			          Your e-mail
-			          <input id="email" type="text" class="text" />
-			        </li>
-			        <li>
-			          Your message
-			          <textarea id="message" type="text"></textarea>
-			        </li>
-			        <li>
-			          <input name="submit" type="submit" value="Send message" class="button" />
-			        </li>
-			      </ul>
+			    <div id="contact-form" class="col col-2">
+			      <h2>Get A Quick Quote &rarr;</h2>
+			      <div class='form block'>
+			        <ul class="left">
+			          <li>
+			            Your name *
+			            <input id="name" type="text" class="text" />
+			          </li>
+			          <li>
+			            Your e-mail *
+			            <input id="email" type="text" class="text" />
+			          </li>
+			          <li>
+			            Your message *
+			            <textarea id="message" type="text"></textarea>
+			          </li>
+			          <li>
+			            <input name="submit" type="submit" value="Get Quote" class="button" />
+			          </li>
+			        </ul>
+			        <ul class="right">
+			          <li>
+			            Job Title *
+			            <input id="job" type="text" class="text" />
+			          </li>
+			          <li>
+			            Phone No. *
+			            <input id="phone" type="text" class="text" />
+			          </li>
+			          <li>
+			            Company *
+			            <input id="company" type="text" class="text" />
+			          </li>			        
+			        </ul>
+			       </div>
 			    </div>
+			    
+			    <div class="col col-1">&nbsp;</div>
+			    <div id="sidebar" class="col col-2">
+	          <?php get_sidebar(); ?>
+	        </div>
+   
 			    			    
 			    <div class="arrow arrow-left">
 		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left-blue.png">
 		      </div>
 			 </div>
 			 
-			 <div id="sidebar" class="block">
-	        <?php get_sidebar(); ?>
-	      </div>
-			  
+			 			  
 			</div><!-- #content -->
 		</div><!-- #primary -->		
 		

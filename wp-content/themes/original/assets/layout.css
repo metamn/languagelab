@@ -88,10 +88,6 @@
 /* Startpage
 */
 
-.home #primary .col-1 {
-  position: relative;
-  top: -.5em; /* Align to grid */
-}
 .home #primary .col-1 .arrow-right {
   top: 1.5em;
   left: 0;
@@ -134,21 +130,6 @@
 }
 
 
-.home #primary #more {  
-  position: relative;
-  top: -.8em; /* Align back to grid */
-}
-.home #more .col {
-  width: 30%;
-  margin-right: 10%;
-}
-.home #more h2 {
-  padding: .312em;
-  margin: 0 0 .938em 0;
-}
-.home #primary #coming-soon {
-  padding-left: 1.25em;
-}
 .home #primary #more .arrow-right {
   top: -1.2em;
   left: 0;
@@ -157,22 +138,55 @@
   top: 1.4em;
   left: 98.3%;
 }
-
-
-.home #sidebar {
-  text-align: center;
-  margin-top: 1.25em;
+.home #more .col-1 {
+  width: 30%;
+  margin-right: 10%;
+  float: left;
 }
-.home #sidebar ul {
-  display: block;
+.home #more .col-2 {
+  width: 60%;
+  float: left;
+  text-align: left;
+}
+.home #more h2 {
+  padding: .312em;
+  margin: 0 .312em .938em;
+}
+.home #more #contact-form ul {
   margin: 0;
-}
-.home #sidebar ul li {  
-  display: inline-block;
   list-style-type: none;
-  margin-left: 0;
-  margin-right: .625em;
 }
+.home #more ul.left {
+  width: 43%;
+  margin: 0 10% 0 2% !important;
+}
+.home #more ul.right {
+  width: 45%;
+}
+.home #more #contact-form h2 {
+  width: 90%;
+  cursor: pointer;
+}
+.home #more input {
+  width: 80%;
+  padding: .312em;
+}
+.home #more textarea {
+  width: 78%;
+}
+.home #more input.button {
+  width: 85%;
+}
+.home #more input, .home #more textarea {
+  border-width: 1px;
+}
+.home #contact-form .form {
+  display: none;
+  margin-bottom: 2.5em;
+}
+
+
+
 
 
 
