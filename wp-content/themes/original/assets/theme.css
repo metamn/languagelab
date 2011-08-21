@@ -64,6 +64,12 @@ body {
   background: #E73D34;
   color: white;
 }
+.home #text a, #home #text a:visited {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px dotted;
+}
+
 
 .home #primary #more {
   background: #1C83E2;
