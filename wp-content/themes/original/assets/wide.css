@@ -36,3 +36,8 @@ header#branding {
   height: 20em;
 }
 
+.home #text a, #home #text a:visited {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px dotted;
+}

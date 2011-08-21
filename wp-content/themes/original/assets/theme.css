@@ -67,6 +67,8 @@ body {
 .home #text a, #home #text a:visited {
   text-decoration: none;
   color: white;
+}
+.home #text a:active, .home #text a:hover {
   border-bottom: 1px dotted;
 }
 

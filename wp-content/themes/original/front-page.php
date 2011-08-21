@@ -17,53 +17,54 @@ get_header(); ?>
 		<div id="primary">
 			<div id="content" role="main">
                 
-        
-        <div class="col col-1">
-          <!--<div class="triangle triangle-left"></div>-->
-          <div class="arrow arrow-right">
-		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right-red.png">
-		      </div>
-          <div id="text">
-            <?php the_post(); ?>			
-            <?php the_content(); ?>
-          </div>
-          <div class="arrow arrow-left">
-		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left-red.png">
-		      </div>
-			  </div>
-			  
-			  <div class="col col-2">
-			    <div id="video">
-			      <a id="intro-video"  href="http://languagelabsite.s3.amazonaws.com/shiv_intro.flv">
-			        <img class="background-video" alt="Play this video" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/background-video.jpg">			     
-			      </a>
-			   </div>
-			  </div>
-			  <script language="JavaScript">
-	        flowplayer("intro-video", "<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.7.swf", {
-            clip:  {
-                autoPlay: false,
-                autoBuffering: true
-            }
-          })  ;
-        </script>
+        <div id="intro">
+          <div class="col col-1">
+            <!--<div class="triangle triangle-left"></div>-->
+            <div class="arrow arrow-right">
+		          <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-right-red.png">
+		        </div>
+            <div id="text">
+              <?php the_post(); ?>			
+              <?php the_content(); ?>
+            </div>
+            <div class="arrow arrow-left">
+		          <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left-red.png">
+		        </div>
+			    </div>
+			    
+			    <div class="col col-2">
+			      <div id="video">
+			        <a id="intro-video"  href="http://languagelabsite.s3.amazonaws.com/shiv_intro.flv">
+			          <img class="background-video" alt="Play this video" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/background-video.jpg">			     
+			        </a>
+			     </div>
+			    </div>
+			    <script language="JavaScript">
+	          flowplayer("intro-video", "<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.7.swf", {
+              clip:  {
+                  autoPlay: false,
+                  autoBuffering: true
+              }
+            })  ;
+          </script>
+        </div>
 			
 			  <div id="icons" class="block">			    
 			    <ul id="img" class="inline-list">
 			      <li>
-			        <img title="Companies" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/companies.jpg">
+			        <img title="Companies" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/companies.png">
 			      </li>
 			      <li>
-			        <img title="Universities" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/universities.jpg">
+			        <img title="Universities" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/universities.png">
 			      </li>
 			      <li>
-			        <img title="Study Abroad Agents" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/agents.jpg">
+			        <img title="Study Abroad Agents" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/agents.png">
 			      </li>
 			      <li>
-			        <img title="English Language Schools" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/schools.jpg">
+			        <img title="English Language Schools" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/schools.png">
 			      </li>
 			      <li class="last">
-			        <img title="Individuals" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/individuals.jpg">
+			        <img title="Individuals" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/individuals.png">
 			      </li>
 			    </ul>
 			    <ul id="txt" class="inline-list">
@@ -140,13 +141,15 @@ get_header(); ?>
 			    <div id="sidebar" class="col col-2">
 	          <?php get_sidebar(); ?>
 	        </div>
-   
-			    			    
+   			    			    
 			    <div class="arrow arrow-left">
 		        <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-left-blue.png">
 		      </div>
 			 </div>
-			 
+		
+		  <div id="scroll">
+		    <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/arrow-scroll.png">	      
+		  </div>	 
 			 			  
 			</div><!-- #content -->
 		</div><!-- #primary -->		
