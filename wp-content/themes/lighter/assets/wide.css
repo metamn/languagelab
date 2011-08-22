@@ -9,7 +9,7 @@
   margin: .625em 0 0;
 }
 header#branding {
-  margin-bottom: 0em;
+  margin-bottom: 3.75em;
 }
 
 
@@ -17,10 +17,7 @@ header#branding {
 /* Menu 
 */
 #menu {
-  margin-top: -.2em; /* Aligning back to the grid after the logo */
-}
-#menu .arrow-right {
-  left: 18.5%;  
+  margin-top: 1.25em; /* Aligning back to the grid after the logo */
 }
 #access {
 	margin-left: 18.5%; /* Align to the logo strapline */

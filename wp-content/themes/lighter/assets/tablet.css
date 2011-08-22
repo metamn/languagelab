@@ -7,15 +7,19 @@
 }
 
 
+header#branding {
+  margin-bottom: 2.5em;
+}
+
 
 
 /* Menu 
 */
-#menu .arrow-right {
-  left: 15.3%;  
+#menu {
+  margin-top: 1.25em; /* Aligning back to the grid after the logo */
 }
 #access {
-	margin-left: 15.3%; /* Align to the logo strapline */
+	margin-left: 15.2%; /* Align to the logo strapline */
 }
 
 

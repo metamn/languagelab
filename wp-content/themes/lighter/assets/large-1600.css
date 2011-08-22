@@ -12,7 +12,7 @@
   margin: .625em 0 0;
 }
 header#branding {
-  margin-bottom: 0em;
+  margin-bottom: 2.5em;
 }
 
 
@@ -20,10 +20,7 @@ header#branding {
 /* Menu 
 */
 #menu {
-  margin-top: 0em; /* Aligning back to the grid after the logo */
-}
-#menu .arrow-right {
-  left: 33.8%;  
+  margin-top: 1.25em; /* Aligning back to the grid after the logo */
 }
 #access {
 	margin-left: 33.8%; /* Align to the logo strapline */
@@ -32,6 +29,10 @@ header#branding {
 
 /* Startpage
 */
+
+.home #text {
+  font-size: larger;
+}
 
 .home #video a {
   margin-top: 2.2em;

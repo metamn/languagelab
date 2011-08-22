@@ -34,4 +34,5 @@ header#branding {
 .home #text {
   height: 22.5em; /* Align to grid */
   padding-bottom: 1.25em !important;
+  font-size: larger;
 }
