@@ -33,9 +33,17 @@ header#branding {
 /* Startpage
 */
 
+.home #text {
+  font-size: larger;
+}
+
 .home #video a {
   margin-top: 2.2em;
 }
 
+.home #primary #icons {
+  padding-top: 0;
+  margin-bottom: 1.25em;
+}
 
 
