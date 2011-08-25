@@ -1,16 +1,13 @@
 /*
-Theme Name:     Suggested by Languagelab
+Theme Name:     Languagelab
 Theme URI:      http://languagelab.com/
-Description:    Child theme for the Twenty Eleven theme 
+Description:    The corporate looking Wordpress theme for Languagelab
 Author:         metamn
 Author URI:     http://twitter.com/metamn
 Template:       twentyeleven
 Version:        0.0.1
 */
 
-/*
-@import url("../twentyeleven/style.css");
-*/
 
 @import url("assets/base.css");
 @import url("assets/layout.css");
