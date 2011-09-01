@@ -1,33 +1,39 @@
 /* Color definitions
 
-base color: #ffcc00, yellow
-  - logo: #407BFF, blue
-  - menu: ##CACC14, green
+- yellow: #ffca00;
+  - darker gradient: #ffa100;
+
     
 */
 
 
 body {
-  font-family: 'Play', Arial, Helvetica, sans-serif;
-  background: url("background.png") scroll repeat 0 0 transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("background.jpg") scroll no-repeat center top transparent;
+  color: #333;
+}
+
+a {
+  color: #333;
 }
 
 
+
+/* Header 
+*/
+
+#branding {
+  border-bottom: 1px dotted;
+}
 
 
 /* Main menu 
 */
 
-#access li {
-  background: #CACC14;
-}
-#access li a {
-  color: white;
-}
+
 #access ul ul a {
 	background: #f3f3f3;
 	border-bottom: 1px dotted #ddd;
-	color: #1c83e2;	
 }
 #access li:hover > a,
 #access ul ul :hover > a,
@@ -36,21 +42,7 @@ body {
 }
 #access li:hover > a,
 #access a:focus {
-	background: #f3f3f3; /* Show a solid color for older browsers */
-	/*
-	background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
-	background: -o-linear-gradient(#f9f9f9, #e5e5e5);
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); 
-	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
-	*/
-	color: #1c83e2 !important;
-}
-#access li.current_page_item > a,
-#access li.current_page_ancestor > a {
-  color: #444;
-}
-#access li.current_page_ancestor li.current_page_item > a {
-  color: #A2AF04;
+	background: #f3f3f3;	
 }
 
 
@@ -58,9 +50,8 @@ body {
 /* Start page
 */
 
-.home #primary #text {
-  background: #ffcc00;
-  color: #333;
+.home #intro article {
+  background: #ffca00;
 }
 
 

@@ -1,26 +1,34 @@
-/* Page width is set in the responsive stylesheets */
 
+/* Fixed width */
 
-/* The symmetric, two column grid
-*/
-.col {
-  width: 45%;
-  float: left;
-}
-.col-1 {
-  margin-right: 10%;
-}
-.col-2  {
-  float: right;
-  text-align: right;
+#page.hfeed {
+  width: 90%;
+  max-width: 80em; /* 1280 px */
+  margin: 0 auto;
 }
 
 
 /* Header 
 */
 
+#branding hgroup, #branding #menu {
+  width: 40%;
+  float: left;
+}
+#branding hgroup {
+  margin-right: 10%;
+}
+#branding #menu {
+  width: 50%;
+  float: left;
+}
+
+#branding {
+  margin: 2.5em 0;
+  padding-bottom: 1.25em;
+}
 #branding hgroup h1 {
-  padding-bottom: 0;
+  padding: 0;
 }
 #branding hgroup img {
   width: 100%;
@@ -32,7 +40,9 @@
 /* Main menu
 */
 
-
+#access {
+  margin-top: .625em;
+}
 #access ul {
 	list-style: none;
 	margin: 0;
@@ -45,7 +55,7 @@
 #access a {
 	display: block;
 	line-height: 2.5em;
-	padding: 0 1.44em;
+	padding: 0 .312em;
 	text-decoration: none;	
 }
 #access ul ul {
@@ -76,32 +86,23 @@
 }
 
 
+
+
 /* Startpage
 */
 
-.home #primary .col-1 {
-  position: relative;
-  top: -.5em; /* Align to grid */
+.home #intro article {
+  width: 40%;
+  margin-right: 10%;
+  float: left;
 }
-.home #primary #text {
+.home #intro article .entry-content {
   padding: 1.25em;
-  padding-bottom: 3.75em;
 }
 
-
-.home #video a {
-  display: block;
-  margin-top: 3.75em;
-  width: 30.75em;
-  height: 22em;
-}
-.home #video img.background-video, .home #video a {
-  position: relative;
-}
 
 .home #icons {
-  margin: .625em 0 3.75em;
-  padding-top: 1.25em;
+  margin: 2.5em 0;
 }
 .home #primary #icons li {
   width: 19.7%;

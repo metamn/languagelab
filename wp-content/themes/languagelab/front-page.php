@@ -14,34 +14,34 @@
 
 get_header(); ?>
 
-		<div id="primary">
-			<div id="content" role="main">
-                
+    <div id="primary">
+		  <div id="content" role="main">
         
-        <div class="col col-1">
-          <div id="text">
-            <?php the_post(); ?>			
-            <?php the_content(); ?>
-          </div>         
-			  </div>
-			  
-			  <div class="col col-2">
-			    <div id="video">
-			      <a id="intro-video"  href="http://languagelabsite.s3.amazonaws.com/shiv_intro.flv">
-			        <img class="background-video" alt="Play this video" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/background-video.jpg">			     
-			      </a>
-			   </div>
-			  </div>
-			  <script language="JavaScript">
-	        flowplayer("intro-video", "<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.7.swf", {
-            clip:  {
-                autoPlay: false,
-                autoBuffering: true
-            }
-          })  ;
-        </script>
+        <section id="intro">
+          <article>
+            <?php the_post(); ?>
+            <div class="entry-content">			
+              <?php the_content(); ?>
+            </div>
+          </article>        
+          
+          <aside>
+            <a id="intro-video"  href="http://languagelabsite.s3.amazonaws.com/shiv_intro.flv">
+		          <img class="background-video" alt="Play this video" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/background-video.jpg">			     
+		        </a>
+          </aside>
+			    <script language="JavaScript">
+	          flowplayer("intro-video", "<?php bloginfo( 'stylesheet_directory' ); ?>/assets/flowplayer-3.2.7.swf", {
+              clip:  {
+                  autoPlay: false,
+                  autoBuffering: true
+              }
+            })  ;
+          </script>
+        </section>
 			
-			  <div id="icons" class="block">			    
+			  
+			  <nav id="icons" class="block">			    
 			    <ul id="img" class="inline-list">
 			      <li class="companies">
 			        <img title="Companies" src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/companies.png">
@@ -76,10 +76,9 @@ get_header(); ?>
 			        Individuals
 			      </li>
 			    </ul>
-			  </div>
-			
-			  
-			  <div id="more" class="block">
+			  </nav>
+						  
+			  <section id="more" class="block">
 			    <div id="coming-soon" class="col">
 			      <h2>Coming sooon</h2>
 			      <ul>
@@ -107,13 +106,12 @@ get_header(); ?>
 			          <input name="submit" type="submit" value="Send message" class="button" />
 			        </li>
 			      </ul>
-			    </div>
-			    
-			 </div>
+			    </div>			    
+			  </section>
 			 
-			 <div id="sidebar" class="block">
-	        <?php get_sidebar(); ?>
-	      </div>
+        <section id="sidebar" class="block">
+          <?php get_sidebar(); ?>
+        </section>
 			  
 			</div><!-- #content -->
 		</div><!-- #primary -->		

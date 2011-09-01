@@ -59,11 +59,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/mobile.css" charset="utf-8" media="screen and (max-width: 480px)" rel="stylesheet" type="text/css" />
   <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/tablet.css" charset="utf-8" media="screen and (min-width: 481px) and (max-width: 1024px)" rel="stylesheet" type="text/css" />
-	<link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/wide.css" charset="utf-8" media="screen and (min-width: 1025px) and (max-width: 1300px)" rel="stylesheet" type="text/css" />
-	<link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/wide-1366.css" charset="utf-8" media="screen and (min-width: 1300px) and (max-width: 1399px)" rel="stylesheet" type="text/css" />
-  <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/large-1440.css" charset="utf-8" media="screen and (min-width: 1400px) and (max-width: 1599px)" rel="stylesheet" type="text/css" />  
-  <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/large-1600.css" charset="utf-8" media="screen and (min-width: 1600px) and (max-width: 1699px)" rel="stylesheet" type="text/css" />    
-  <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/large.css" charset="utf-8" media="screen and (min-width: 1700px)" rel="stylesheet" type="text/css" />  
+	<link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/wide.css" charset="utf-8" media="screen and (min-width: 1025px) and (max-width: 1399px)" rel="stylesheet" type="text/css" />
+  <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/large.css" charset="utf-8" media="screen and (min-width: 1400px)" rel="stylesheet" type="text/css" />  
   <!--[if IE]>
     <link href="/assets/ie.css" media="all" type="text/css" rel="stylesheet">  
 	<![endif]-->
